@@ -1,4 +1,53 @@
 body{
   background-color: #000;
+  color: white;
   font-family: 'Anonymous Pro', monospace;
+}
+
+p{
+  font-size: 18px;
+}
+
+.header-bg{
+  background: url(/img/serenata-bg.png);
+  background-position: 0px -35px;
+  background-size: cover;
+  min-height: 480px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.catarse-stripe{
+  padding: 20px 0px;
+  background-color: #fff;
+  font-size: 28px;
+  text-align: center;
+}
+
+.catarse-stripe a{
+  color: #000;
+}
+
+.content-block{
+  margin-top: 30px;
+}
+
+.panel-group .panel {
+  border: none;
+}
+
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.panel-title a{
+  font-size: 22px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  background-color: #000;
+  border-top: none;
+  border-bottom: 1px solid #fff;
 }
