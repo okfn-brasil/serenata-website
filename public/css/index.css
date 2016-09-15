@@ -4,6 +4,10 @@ body{
   font-family: 'Anonymous Pro', monospace;
 }
 
+h1, h2{
+  font-weight: 600;
+}
+
 p{
   font-size: 18px;
 }
@@ -38,6 +42,14 @@ p{
   margin-bottom: 30px;
 }
 
+.main-text{
+  background: url(/img/pixelmountains.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-bottom: 80px;
+  background-size: 370px
+}
+
 .panel-group .panel {
   border: none;
 }
@@ -61,6 +73,10 @@ p{
 .ways-to-engage{
   background-color: #fff;
   color: #000;
+}
+
+.engage-icon{
+  margin-top: 52px;
 }
 
 .volunteer-panel{
