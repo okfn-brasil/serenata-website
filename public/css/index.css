@@ -15,6 +15,9 @@ p{
   min-height: 480px;
   padding-top: 90px;
   text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .catarse-stripe{
@@ -30,6 +33,7 @@ p{
 
 .content-block{
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .panel-group .panel {
@@ -44,10 +48,55 @@ p{
 
 .panel-title a{
   font-size: 22px;
+  text-decoration: none;
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
   background-color: #000;
   border-top: none;
-  border-bottom: 1px solid #fff;
+}
+
+.ways-to-engage{
+  background-color: #fff;
+  color: #000;
+}
+
+.volunteer-panel{
+  background-color: #210040;
+}
+
+.opensource-panel{
+  background-color: #43007F;
+
+}
+
+.share-panel{
+  background-color: #8500FF;
+}
+
+.crowdfunding-panel{
+  background-color: #7800E5;
+}
+
+.dsbr-panel{
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #43007F;
+  color: #fff;
+  padding-top: 20px;
+}
+
+footer a{
+  color: #fff;
+  font-size: 20px;
+}
+
+footer a:hover{
+  color: #fff;
 }
