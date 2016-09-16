@@ -12,6 +12,28 @@ p{
   font-size: 18px;
 }
 
+button{
+  background-color: #C72838;
+  border-color: #fff;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+button:hover{
+  background-color: #8E1923;
+}
+
+.btn-link{
+  color: #fff;
+}
+
+.btn-link:hover{
+  color: #fff;
+}
+
 .header-bg{
   background: url(/img/serenata-bg.png);
   background-position: 0px -35px;
@@ -38,8 +60,8 @@ p{
 }
 
 .content-block{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .main-text{
