@@ -1,2 +1,0 @@
-require './site'
-MyApp.run!
