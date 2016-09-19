@@ -35,7 +35,7 @@ button:hover{
 }
 
 .header-bg{
-  background: url(/img/serenata-bg.png);
+  background: url(/img/serenatabg.png);
   background-position: 0px -35px;
   background-size: cover;
   min-height: 480px;
