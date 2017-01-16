@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #000;
   color: white;
   font-family: 'Anonymous Pro', monospace;
@@ -10,6 +10,10 @@ h1, h2{
 
 p{
   font-size: 18px;
+}
+
+.menu{
+  margin-top: 16px;
 }
 
 button{
@@ -26,37 +30,33 @@ button:hover{
   background-color: #8E1923;
 }
 
-.btn-link{
-  color: #fff;
-}
-
-.btn-link:hover{
-  color: #fff;
-}
-
-.header-bg{
-  background: url(images/serenatabg.png);
-  background-position: 0px -35px;
-  background-size: cover;
-  min-height: 480px;
-  padding-top: 90px;
-  text-align: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.catarse-stripe{
+.top-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   padding: 20px 0px;
   background-color: #fff;
   font-size: 28px;
   text-align: center;
+  box-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
 
-.catarse-stripe a{
+.top-menu a {
   color: #000;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.banner-bg{
+  background: url(images/gif2.gif);
+  background-position: 0px 100px;
+  background-size: cover;
+  min-height: 580px;
+  padding-top: 140px;
+  text-align: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content-block{
@@ -64,68 +64,71 @@ button:hover{
   margin-bottom: 60px;
 }
 
-.main-text{
-  background: url(images/pixelmountains.png);
-  background-position: bottom;
+.infographic{
+  padding-top: 40px;
+}
+
+.disclaimer{
+  background-color: #fff;
+  color: #000;
+}
+
+.robot-picture{
+  background: url(images/rosie.png);
+  background-repeat: no-repeat;
+  background-size: 336px;
+  min-height: 262px;
+  background-position-y: 10px;
+  background-position-x: center;
+}
+
+.table-container{
+  //background: url(images/pixelmountains-reverse.png);
+  background-position-y: -15px;
   background-repeat: repeat-x;
-  padding-bottom: 80px;
+  padding-top: 80px;
   background-size: 370px
 }
 
-.panel-group .panel {
-  border: none;
+.data-table{
+  margin-top: 40px;
 }
 
-.panel-default>.panel-heading {
-  color: #fff;
-  background-color: #000;
-  border: none;
+table th{
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #FFF;
+  color: black;
 }
 
-.panel-title a{
-  font-size: 22px;
-  text-decoration: none;
+table td{
+  font-size: 18px;
 }
 
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
-  background-color: #000;
-  border-top: none;
+.post-thumb{
+  background-color: #FFF;
+  padding: 12px;
 }
 
-.ways-to-engage{
-  background-color: #fff;
-  color: #000;
+.post-thumb a{
+  color: black;
 }
 
-.engage-icon{
-  margin-top: 52px;
+.post-thumb img{
+  width: 100%;
 }
 
-.volunteer-panel{
-  background-color: #210040;
+.more-posts-link{
+  color: #FFF;
+  font-size: 18px;
 }
 
-.opensource-panel{
-  background-color: #43007F;
-}
-
-.share-panel{
-  background-color: #8500FF;
-}
-
-.crowdfunding-panel{
-  background-color: #7800E5;
-}
-
-.dsbr-panel{
-  background-color: #fff;
-  color: #000;
-  text-align: center;
+.posts-thumb-area{
+  margin-top: 20px;
 }
 
 footer{
-  text-align: center;
-  height: 70px;
+  height: 270px;
   background-color: #43007F;
   color: #fff;
   padding-top: 20px;
@@ -139,3 +142,11 @@ footer a{
 footer a:hover{
   color: #fff;
 }
+.footer-menu a{
+  display: block;
+}
+
+.dsbr-footer{
+  margin-top: 50px;
+}
+
