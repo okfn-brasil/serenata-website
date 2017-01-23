@@ -135,6 +135,8 @@ table td{
 
 .histories-thumb {
   min-height: 200px;
+  display: flex;
+  align-items: center;
 }
 
 .histories-thumb img{
