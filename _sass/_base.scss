@@ -4,6 +4,10 @@ body {
   font-family: 'Anonymous Pro', monospace;
 }
 
+.page-content {
+  padding-top: 110px;
+}
+
 h1, h2{
   font-weight: 600;
 }
@@ -14,6 +18,10 @@ p{
 
 .menu{
   margin-top: 16px;
+}
+
+.row {
+  margin: 0;
 }
 
 button{
@@ -52,7 +60,7 @@ button:hover{
   background-position: 0px 100px;
   background-size: cover;
   min-height: 580px;
-  padding-top: 140px;
+  padding-top: 20px;
   text-align: left;
   background-attachment: fixed;
   background-repeat: no-repeat;
