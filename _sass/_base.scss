@@ -158,3 +158,26 @@ footer a:hover{
   margin-top: 50px;
 }
 
+.support-cta{
+  background-color: #EB4A3B;
+  font-size: 2rem;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  top: 109px;
+  width: 100%;
+  z-index: 1;
+}
+
+.support-cta-anchor{
+  color: white;
+  width: 100%;
+}
+
+.support-cta-anchor:hover{
+  color: white;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
