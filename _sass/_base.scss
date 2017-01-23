@@ -60,7 +60,7 @@ button:hover{
   background-position: 0px 100px;
   background-size: cover;
   min-height: 580px;
-  padding-top: 20px;
+  padding-top: 60px;
   text-align: left;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -173,11 +173,11 @@ footer a:hover{
 .support-cta-anchor{
   color: white;
   width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .support-cta-anchor:hover{
   color: white;
   cursor: pointer;
-  display: block;
-  width: 100%;
 }
