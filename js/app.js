@@ -51,7 +51,7 @@ var createHistThumb = function (post) {
   title.innerHTML = post.title;
 
   var text = document.createElement('p');
-  text.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, augue et dignissim consequat, nibh risus pretium mi, at congue sem enim nec lectus. Ut fringilla lacus at nibh mattis finibus.';
+  text.innerHTML = post.snippet;
 
   d_thumb.appendChild(title);
   d_thumb.appendChild(text);
