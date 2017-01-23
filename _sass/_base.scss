@@ -160,6 +160,26 @@ table td{
   margin-top: 20px;
 }
 
+.panel-group .panel {
+  border: none;
+}
+
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.panel-title a{
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  background-color: #000;
+  border-top: none;
+}
+
 footer{
   height: 270px;
   background-color: #43007F;
