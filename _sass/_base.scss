@@ -5,7 +5,7 @@ body {
 }
 
 .page-content {
-  padding-top: 110px;
+  padding-top: 150px;
 }
 
 h1, h2{
@@ -116,6 +116,29 @@ table td{
 .post-thumb{
   background-color: #FFF;
   padding: 12px;
+}
+
+.histories-thumb-area {
+  margin-top: 30px;
+}
+
+.histories-thumb-area a {
+  color: black;
+  display: block;
+}
+
+.histories-thumb-area .row {
+  background-color: #FFF;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+
+.histories-thumb {
+  min-height: 200px;
+}
+
+.histories-thumb img{
+  width: 100%;
 }
 
 .post-thumb a{
