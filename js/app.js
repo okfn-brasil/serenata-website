@@ -13,6 +13,7 @@ var createThumb = function (post) {
   img.setAttribute('src', post.image);
 
   var title = document.createElement('h3');
+  title.setAttribute('class', 'post-title');
   title.innerHTML = post.title;
 
   link.appendChild(img);

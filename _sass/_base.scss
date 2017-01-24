@@ -116,6 +116,14 @@ table td{
 .post-thumb{
   background-color: #FFF;
   padding: 12px;
+  height: 370px;
+  display: flex;
+  align-items: center;
+}
+
+.post-title{
+  margin-bottom: 20px;
+  height: 105px;
 }
 
 .histories-thumb-area {
