@@ -12,6 +12,10 @@ h1, h2{
   font-weight: 600;
 }
 
+h4 {
+  font-size: 64px;
+}
+
 p{
   font-size: 18px;
 }
@@ -20,8 +24,16 @@ p{
   margin-top: 16px;
 }
 
+.mB-60 {
+  margin-bottom: 60px;
+}
+
 .row {
   margin: 0;
+}
+
+.p-0 {
+  padding: 0;
 }
 
 button{
@@ -38,11 +50,20 @@ button:hover{
   background-color: #8E1923;
 }
 
+.btn-white {
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-white:hover{
+  background-color: #fff;
+}
+
 .top-menu {
   position: fixed;
   width: 100%;
   z-index: 1;
-  padding: 20px 0px;
+  padding: 20px 0px 0px;
   background-color: #fff;
   font-size: 28px;
   text-align: center;
@@ -51,8 +72,12 @@ button:hover{
 
 .top-menu a {
   color: #000;
-  margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 .banner-bg{
