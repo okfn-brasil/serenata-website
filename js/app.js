@@ -82,9 +82,7 @@ $(document).ready(function(){
   $.ajax({
     "type": "json",
     "method": "GET",
-    "url": "http://medium-dsbr-proxy.herokuapp.com/",
+    "url": "https://medium-dsbr-proxy.herokuapp.com/",
     "success": loadPosts
   });
 });
-
-
