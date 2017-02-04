@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Operação Serenata de Amor
 tagline:             Robôs contra a corrupção
-url:                 https://github.com/datasciencebr/serenata-website
+url:                 https://serenatadeamor.org
 baseurl:             ""
 
 # Assets
@@ -19,10 +19,10 @@ sass:
 # About/contact
 author:
   name:              Data Science Brigade
-  url:               https://twitter.com/datascience_br
+  url:               https://www.facebook.com/operacaoSerenataDeAmor
   email:             contato@datasciencebr.com
 
 # Custom vars
-version:             0.1.0
+version:             1.0.0
 github:
   repo:             https://github.com/datasciencebr/serenata-website
