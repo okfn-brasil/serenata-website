@@ -6,6 +6,7 @@ body {
 
 .page-content {
   padding-top: 150px;
+  width: 100%;
 }
 
 h1, h2{
@@ -16,16 +17,21 @@ h4 {
   font-size: 64px;
 }
 
-p{
+p {
   font-size: 18px;
 }
 
-.page-content {
-  min-width: 1024px;
-}
 
 .menu{
   margin-top: 16px;
+}
+
+.navbar-toggle {
+  background: #000;
+}
+
+.icon-bar {
+  background: #FFF;
 }
 
 .mB-60 {
@@ -71,7 +77,7 @@ button:hover{
   position: fixed;
   width: 100%;
   z-index: 1;
-  padding: 20px 0px 0px;
+  padding: 20px 0px 10px 10px;
   background-color: #fff;
   font-size: 28px;
   text-align: center;
@@ -107,6 +113,11 @@ button:hover{
 
 .infographic{
   padding-top: 40px;
+  width: 100%;
+}
+
+.infographic .infographic-image {
+  width: 100%;
 }
 
 .disclaimer{
@@ -149,7 +160,6 @@ table td{
 .post-thumb{
   background-color: #FFF;
   padding: 12px;
-  height: 370px;
   display: flex;
   align-items: center;
 }
@@ -267,3 +277,10 @@ footer a:hover{
   color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width: 766px) {
+  .menu {
+    margin-top: 75px;
+  }
+}
+
