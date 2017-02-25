@@ -278,9 +278,12 @@ footer a:hover{
   cursor: pointer;
 }
 
+.partner-anchor{
+  display: inline-block;
+}
+
 @media screen and (max-width: 766px) {
   .menu {
     margin-top: 75px;
   }
 }
-
