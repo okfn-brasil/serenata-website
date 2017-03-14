@@ -1,4 +1,4 @@
-var createThumb = function (post) {
+var createHomeThumbs = function (post) {
 
   var col = document.createElement('div');
   col.setAttribute('class', 'col-md-4');
@@ -25,7 +25,7 @@ var createThumb = function (post) {
 
 };
 
-var createHistThumb = function (post) {
+var createStoriesThumbs = function (post) {
 
   var link = document.createElement('a');
   link.setAttribute('href', post.url);
@@ -64,18 +64,26 @@ var createHistThumb = function (post) {
   link.appendChild(row);
 
   return link;
+
 }
 
 var loadPosts = function (posts) {
-  for (var i = 0; i < 3; i++) {
-      var post = createThumb(posts[i]);
-      $('.posts-thumb-area').append(post);
+
+  var homePosts = $('.posts-thumb-area');
+  if (homePosts.length) {
+    homePosts.empty();
+    for (var i = 0; i < 3; i++) {
+      homePosts.append(createHomeThumbs(posts[i]));
+    }
   }
 
-  posts.forEach(function(post) {
-    var post = createHistThumb(post);
-    $('.histories-thumb-area').append(post);
-  });
+  var storiesPosts = $('.histories-thumb-area');
+  if (storiesPosts.length) {
+      storiesPosts.empty();
+      posts.forEach(function(post) {
+        storiesPosts.append(createStoriesThumbs(post));
+      });
+  }
 };
 
 $(document).ready(function(){
