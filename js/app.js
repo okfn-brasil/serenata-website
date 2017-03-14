@@ -9,8 +9,9 @@ var createHomeThumbs = function (post) {
   var link = document.createElement('a');
   link.setAttribute('href', post.url);
 
-  var img = document.createElement('img');
-  img.setAttribute('src', post.image);
+  var img = document.createElement('div');
+  img.setAttribute('class', 'post-thumb-img');
+  img.setAttribute('style', 'background-image:  url(' + post.image + ')');
 
   var title = document.createElement('h3');
   title.setAttribute('class', 'post-title');
@@ -38,9 +39,7 @@ var createStoriesThumbs = function (post) {
 
   var thumb = document.createElement('div');
   thumb.setAttribute('class', 'histories-thumb');
-
-  var img = document.createElement('img');
-  img.setAttribute('src', post.image);
+  thumb.setAttribute('style', 'background-image:  url(' + post.image + ')');
 
   var d_col = document.createElement('div');
   d_col.setAttribute('class', 'col-md-8');
@@ -57,7 +56,6 @@ var createStoriesThumbs = function (post) {
   d_thumb.appendChild(title);
   d_thumb.appendChild(text);
   d_col.appendChild(d_thumb);
-  thumb.appendChild(img);
   col.appendChild(thumb);
   row.appendChild(col);
   row.appendChild(d_col);
@@ -65,7 +63,7 @@ var createStoriesThumbs = function (post) {
 
   return link;
 
-}
+};
 
 var loadPosts = function (posts) {
 
