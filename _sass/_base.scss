@@ -164,6 +164,11 @@ table td{
   align-items: center;
 }
 
+.post-thumb-img{
+  background-size: cover;
+  height: 12rem;
+}
+
 .post-title{
   margin-bottom: 20px;
   height: 105px;
@@ -185,21 +190,14 @@ table td{
 }
 
 .histories-thumb {
-  min-height: 200px;
-  display: flex;
   align-items: center;
-}
-
-.histories-thumb img{
-  width: 100%;
+  background-size: cover;
+  display: flex;
+  height: 12rem;
 }
 
 .post-thumb a{
   color: black;
-}
-
-.post-thumb img{
-  width: 100%;
 }
 
 .more-posts-link{
