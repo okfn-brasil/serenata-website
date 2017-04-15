@@ -21,6 +21,9 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    jgd (1.8)
+      jekyll (>= 1.5.1)
+      trollop (= 2.1.2)
     kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.8)
@@ -36,12 +39,14 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    trollop (2.1.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll
+  jgd
 
 BUNDLED WITH
    1.14.6
