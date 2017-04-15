@@ -1,7 +1,14 @@
 # Serenata Website
 
+## Setup
+
+```console
+$ gem install bundler
+$ bundle install
 ```
-git clone
-cd serenata-website
-jekyll s
+
+# Development
+
+```console
+$ jekyll server
 ```
