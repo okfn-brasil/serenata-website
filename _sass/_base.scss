@@ -280,6 +280,16 @@ footer a:hover{
   display: inline-block;
 }
 
+#supporters{
+  column-count: 2;
+}
+
+@media screen and (max-width: 1200px) {
+  #supporters{
+    column-count: 1;
+  }
+}
+
 @media screen and (max-width: 766px) {
   .menu {
     margin-top: 75px;
