@@ -8,5 +8,73 @@ header:
   about: Sobre
 support:
   fund_us: Apoie o projeto
-
+home:
+  about: Inteligência artificial para controle social da administração pública
+  about_rosie: A Operação Serenata de Amor criou um Robô - uma inteligência artificial capaz de analisar cada pedido de reembolso dos deputados e identificar a probabilidade de ilegalidade.
+  last_histories: Últimas histórias publicadas
+  loading: Carregando...
+  more_posts: Ver todos
+footer:
+  about: Sobre
+  github: Serenata no github
+  contact: contato
+  partners: parceiros
+stories:
+  published: Histórias publicadas
+  loading: Carregando...
+explore:
+  reports: Denúncias
+  about_reports: A Rosie, nossa Robô, em números
+  tweet_about: Tuíte sobre esse número
+  chamber_reports: Denúncias feitas a Câmara dos Deputados
+  suspitions: Deputados diferentes denunciados por gastos suspeitos
+  questionated: mil reais em gastos suspeitos questionados
+  paragraph_one: Esses valores correspondem a 371% do que arrecadamos com nossa campanha de financeamento coletivo (R$ 80.424,00)
+  paragraph_two: Quer saber como o processo de denúncias funciona?
+  more: Você pode ler mais nesse post em nosso blog.
+about:
+  title: A operação serenata de amor.
+  who_contributed: Pessoas que contríbuiram
+  paragraph_one: Somos um projeto de tecnologia que usa inteligência artificial para auditar contas públicas e combater a corrupção. A ideia surgiu do cientista de dados
+  paragraph_two: ao perceber que ainda existiam muitas brechas no uso de tecnologia para fiscalizar gastos de parlamentares. Ao compartilhar a ideia com amigos, não demorou muito para o projeto ganhar força e um time formado por 8 pessoas dispostas a realizá-lo.
+  paragraph_three: Nascia então a Operação Serenata de Amor, focada em fiscalizar os reembolsos efetuados a partir da Cota para Exercício da Atividade Parlamentar, que custeia alimentação, transporte, hospedagem e até cultura, cursos e assinaturas de TV dos deputados federais.
+  paragraph_four: No dia 7 de Setembro foi ao ar o primeiro crowdfunding do projeto, que pedia verba para custear o trabalho da equipe por 2 meses. Ao final, a campanha conseguiu 20% a mais do que o valor pedido, totalizando mais de R$ 80 mil.
+  paragraph_five: 'Demos início ao trabalho oficialmente no começo de novembro e é marcado, desde então, por reuniões diárias da equipe e por seu conteúdo totalmente open source, isto é, aberto à comunidade. Isso faz parte da nossa orientação: mais do que um projeto de tecnologia, buscamos difundir informação e conscientização política. Queremos marcar uma nova era de dados abertos e acessíveis à população.'
+FAQ:
+  question_one: 1. Quem é responsável pelo projeto?
+  answer_one: 'Somos um <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">grupo</a> de apaixonados por tecnologia. O projeto que começou como iniciativa da <a href="https://datasciencebr.com" target="_blank">Data Science Brigade</a>, cresceu e hoje tomou vida própria, contando também com diversos profissionais de fora da empresa. Todo código é aberto, contamos com um corpo de centenas de voluntários: colaboradores do mundo inteiro, incluindo jornalistas e investigadores.'
+  question_two: 2. Onde vocês estão?
+  answer_two: Nosso time é espalhado por cidades e países diferentes. Usamos dos benefícios da tecnologia para conseguirmos fazer reuniões, discutir o projeto e dar continuidade do trabalho de forma remota, sem precisarmos de um espaço físico.
+  question_three: 3. O que é open source?
+  answer_three: Open source é um termo em inglês utilizado para distribuição de código de forma aberta, onde todas as pessoas interessadas em contribuir para a evolução do projeto podem, de forma livre, agregar suas ideias.
+  question_four: 4. Quais dados utilizamos?
+  answer_four: Utilizamos dados públicos — seja dados tornados públicos pela Lei de Acesso a Informação, seja dados privados disponibilizados publicamente por empresas como Google, Foursquare, Yelp etc. Na esfera pública conseguimos dados junto à Câmara dos Deputados, Receita Federal, Portal da Transparência, dados.gov.br etc.
+  question_five: 5. O que é a cota para exercício de atividade parlamentar?
+  answer_five: A <a href="http://www.camara.gov.br/cota-parlamentar" target="_blank">Cota para Exercício de Atividade Parlamentar</a> (CEAP) é um valor mensal de até R$ 45 mil que cada deputado tem direito a ressarcimento por gastos que não cabem licitação. Um almoço ou pagamento de táxi, por exemplo.
+  question_six: 6. Como as denúncias são feitas?
+  answer_six: As denúncias são feitas diretamente à Câmara dos Deputados através de um painel de casos com a maior probabilidade de ilegalidade encontrados pela Rosie. Criamos algumas <a href="https://datasciencebr.com/como-est%C3%A1-acontecendo-a-hackaton-de-den%C3%BAncias-da-opera%C3%A7%C3%A3o-serenata-de-amor-a8bd193e0c76#.stz4qx3sc" target="_blank">ferramentas internas</a> que pretendemos refinar para poder oferecê-las publicamente em breve.
+  question_seven: 7. Para onde posso enviar dúvidas/elogios/sugestões?
+  answer_seven: Você pode entrar em contato através da <a href="https://www.facebook.com/operacaoSerenataDeAmor/" target="_blank">página da operação no Facebook</a> ou falar com o Cabral, nosso mestre da comunicação, por <a href="mailto:cabral@datasciencebr.com" target="_blank">email</a>. Se for da área técnica, pode falar com a gente <a href="https://github.com/datasciencebr/" target="_blank">direto pelo GitHub</a> também.
+  question_eight: 8. Qual o canal técnico de comunicação do projeto?
+  answer_eight: Atualmente conversamos na língua inglesa, em um <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">grupo aberto do Telegram</a>. Você é muito bem vindo(a) para se juntar a ele.
+  question_nine: 9. Por que a comunicação técnica é feita em inglês?
+  answer_nine: Contamos com uma comunidade criada em volta do projeto que vai além do Brasil - pessoas de outros países interessadas em contribuir. Dentro do repositório do Github e em nosso canal do Telegram, optamos por usar a língua inglesa para que possamos incluir as opiniões dessas pessoas na discussão. Além disso, várias pessoas de outros países demonstraram interesse em nosso código desde o dia zero. Mantendo o código e toda documentação técnica em inglês, fazemos com que facilmente o nosso esforço possa ser aproveitado em outros países do mundo.
+  question_ten: 10. O que é Machine Learning?
+  answer_ten: 'Para falar sobre Machine Learning, selecionamos um vídeo que sumariza tudo que precisamos saber para entender sobre o assunto: <a href="https://youtu.be/b4MxnoisnOM" target="_blank">O que é machine learning?</a>'
+  question_eleven: 11. O que é inteligência artificial?
+  answer_eleven: Escrevemos um post sobre <a href="https://datasciencebr.com/a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-930b5cc2aa42" target="_blank">a diferença Entre Inteligência Artificial, Machine Learning e Deep Learning</a> — acho que ele pode te ajudar.
+  question_twelve: 12. Por que estamos usando python?
+  answer_twelve: Usamos python por que ele nos fornece a grande maioria de bibliotecas disponíveis para análise de dados e aprendizagem de máquina.
+  question_thirteen: 13. O que é o Jarbas?
+  answer_thirteen: O <a href="https://jarbas.datasciencebr.com/" target="_blank">Jarbas</a> é uma ferramenta criada por nós para facilitar a visualização dos dados que estão sendo minerados por nosso Robô. Essencial para o trabalho investigativo. Ele surgiu como uma ferramenta interna mas aos poucos vamos melhorar a interface dele para que ele se torne uma ferramenta de utilidade pública.
+  question_fourteen: 14. O que é a Rosie?
+  answer_fourteen: A <a href="https://github.com/datasciencebr/rosie" target="_blank">Rosie</a> é a nossa Robô que foi programada para identificar usos ilegais da verba pública, começando pela CEAP. Ela julga cada um dos reembolsos solicitados pelos nossos deputados, nos dizendo quais são os motivos que fazem cada um poderem ser ilegais.
+  question_fifteen: 15. Como o projeto nasceu?
+  answer_fifteen: A <a href="/sobre" target="_blank">primeira fase</a> do projeto, que durou dois meses, foi realizada através de uma <a href="https://www.catarse.me/serenata" target="_blank">campanha de financiamento coletivo</a>. Mais de 1296 nos ajudaram a tornar o projeto realidade.
+  question_sixteen: 16. Como posso contribuir com o projeto?
+  answer_sixteen: Você pode contribuir para o projeto com código, ajudando a manter a equipe, com ideias, com <a href="https://twitter.com/search?q=%23serenatadeamor" target="_blank">retuítes</a> e compartilhamentos. Para entender como começar a contribuir com código, leia <a href="https://datasciencebr.com/how-does-one-contribute-to-serenata-de-amor-operation-36e3e7b38207#.een62m7or" target="_blank">este post</a>. Para contribuir diretamente para a continuação do projeto, você pode acessar a nossa página no <a href="https://apoia.se/serenata" target="_blank">apoia.se</a>.
+  question_seventeen: 17. O que o nome Serenata de Amor significa?
+  answer_seventeen: 'Os motivos são três:<br> 1 - Nos inspiramos diretamente no famoso Caso Toblerone - um famoso acontecimento onde uma política na Suécia renunciou o seu cargo após ser flagrada com um simples Toblerone na fatura de seu cartão corporativo. Queremos fazer isso: encontrar corrupção em pequenos gastos, mas em volume grande.<br> 2 - Parece nome de operação da Polícia Federal, e isso é muito legal.<br> 3 - É a nossa Serenata de Amor para o Brasil.'
+  question_eighteen: 18. Vocês estão protegendo os deputados não divulgando o nome dos suspeitos?
+  answer_eighteen: Não, estamos protegendo a nós e a nossa comunidade. Para minimizar a chance de processo de crime contra a honra só divulgamos nomes quando alguma instância oficial corrobora nossas suspeitas. Mas os dados são abertos e nossas ferramentas também, fique à vontade para fazer uma auditoria você mesmo!
 ---

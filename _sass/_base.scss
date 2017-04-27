@@ -9,6 +9,10 @@ body {
   width: 100%;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 h1, h2{
   font-weight: 600;
 }
@@ -24,6 +28,7 @@ p {
 
 .menu{
   margin-top: 16px;
+  text-transform: uppercase;
 }
 
 .navbar-toggle {
@@ -203,6 +208,7 @@ table td{
 .more-posts-link{
   color: #FFF;
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 .posts-thumb-area{
@@ -234,6 +240,7 @@ footer{
   background-color: #43007F;
   color: #fff;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 
 footer a{
