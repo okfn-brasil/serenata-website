@@ -28,7 +28,7 @@ explore:
   tweet_about: Tweet about this number
   chamber_reports: Reports done to the Chamber of Deputies
   suspitions: Different congresspeople reported for suspicious reimbursements
-  questionated: mil BRL questionated in expenses
+  questionated: thousand Brazilian Reals in suspicious expenses questioned
   paragraph_one: Those values correspond to 371% of what we raised with our crowdfunding campaign (~U$ 25.000,00)
   paragraph_two: Want to know how the report system works?
   more: You can read more in this post
@@ -41,6 +41,7 @@ about:
   paragraph_four: On September 7 goes live the first crowdfunding campaign of the project, asking for money to pay for the team work for 2 months. In the end, the campaign raised 20% more than the original asked value, summing up more than U$25.000,00.
   paragraph_five: 'We officially started the job in the beginning of november and it was marked, since then, by team daily meetings and for it’s fully open source content, that means, open for the community. This makes part of our guidance: more than a technology project, our goal it is to spread information and political conscience. We want to settle a new age of open data and it’s public access.'
 FAQ:
+  doubts: Have doubts? Ask in our <a href="https://www.facebook.com/operacaoSerenataDeAmor" target="_blank">Facebook page</a> or find us on <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">Twitter</a>. If the subject is technical, you can write in English on <a href="https://github.com/datasciencebr/" target="_blank">GitHub</a> or our technical <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">group on Telegram</a>. If none of this works, <a href="mailto:cabral@datasciencebr.com" target="_blank">Cabral</a> is our master of communication.
   question_one: 1. Who is responsible for the project?
   answer_one: 'We are a <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">group</a> of technology enthusiasts. The project, which started as <a href="https://datasciencebr.com" target="_blank">Data Science Brigade''s</a> initiative, CODELAND''s data science division, has grown and today has taken a life of its own, with many professionals from outside the company. All the code is open sourced, we have a body of hundreds of volunteers: employees from all over the world, including journalists and researchers.'
   question_two: 2. Where are you?
