@@ -26,3 +26,9 @@ author:
 version:             1.0.0
 github:
   repo:             https://github.com/datasciencebr/serenata-website
+
+#i18n
+gems:
+                    - jekyll-multiple-languages-plugin
+languages:          ["pt-br", "en"]
+exclude_from_localizations: ["javascript", "css"]

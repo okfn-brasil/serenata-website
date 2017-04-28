@@ -1,26 +1,3 @@
-<!-- <header>
-  <div class="top-menu">
-    <div class="container">
-      <div class="row">
-        <div class="pull-left">
-          <a href="/"><img src="/images/logo.png" width="140" alt="Operação Serenata de Amor"></a>
-        </div>
-        <div class="pull-right menu">
-          <a href="/histories/">HISTÓRIAS</a>
-          <a href="#">EXPLORAR</a>
-          <a href="/about/">SOBRE</a>
-          <a href="/faq/">FAQ</a>
-        </div>
-      </div>
-    </div>
-    <div class="support-cta">
-      <a href="https://apoia.se/serenata" target="_blank" class="support-cta-anchor">
-        Apoie o projeto
-      </a>
-    </div>
-  </div>
-</header> -->
-
 <header>
   <nav class="top-menu">
     <div class="container">
@@ -37,17 +14,38 @@
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav pull-right menu">
-          <li class="active"><a href="/stories/">HISTÓRIAS</a></li>
-          <li><a href="/explore/">EXPLORAR</a></li>
-          <li><a href="/about/">SOBRE</a></li>
-          <li><a href="/faq/">FAQ</a></li>
+          {% if site.lang == "en" %}
+            <li class="active"><a href="/en/stories/">{% translate header.stories %}</a></li>
+          {% else %}
+            <li class="active"><a href="/stories/">{% translate header.stories %}</a></li>
+          {% endif %}
+          {% if site.lang == "en" %}
+            <li><a href="/en/explore/">{% translate header.explore %}</a></li>
+          {% else %}
+            <li><a href="explore/">{% translate header.explore %}</a></li>
+          {% endif %}
+          {% if site.lang == "en" %}
+            <li><a href="/en/about/">{% translate header.about %}</a></li>
+          {% else %}
+            <li><a href="/about/">{% translate header.about %}</a></li>
+          {% endif %}
+          {% if site.lang == "en" %}
+            <li><a href="/en/faq/">FAQ</a></li>
+          {% else %}
+            <li><a href="/faq/">FAQ</a></li>
+          {% endif %}
+          {% if site.lang == "en" %}
+            <li><a href="/">PT_BR</a></li>
+          {% else %}
+            <li><a href="/en">EN</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>
   </nav>
   <div class="support-cta">
     <a href="https://apoia.se/serenata" target="_blank" class="support-cta-anchor">
-      Apoie o projeto
+      {% translate support.fund_us %}
     </a>
   </div>
 </header>
