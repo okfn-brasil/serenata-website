@@ -11,9 +11,9 @@ support:
 home:
   about: Artificial Intelligence for social control of public administration
   about_rosie: Operação Serenata de Amor created a Robot - An artificial intelligence capable of analysing each claim for reimbursement from congresspeople and of identifying it’s illegal probability.
-  last_histories: Last stories
+  last_stories: Last stories
   loading: Loading…
-  more_posts: More stories
+  more_stories: More stories
 footer:
   about: about
   github: Serenata on github
@@ -27,7 +27,7 @@ explore:
   about_reports: Rosie, our Robot, in numbers
   tweet_about: Tweet about this figure
   chamber_reports: Cases reported to the Chamber of Deputies
-  suspitions: Different congresspeople reported for suspicious reimbursements
+  suspicions: Different congresspeople reported for suspicious reimbursements
   questionated: thousand Brazilian Reals questioned in suspicious expenses
   paragraph_one: This amount corresponds to 371% of what we raised through our crowdfunding campaign (~US$ 25,000.00)
   paragraph_two: Want to know how the report system works?
