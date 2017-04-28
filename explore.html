@@ -23,7 +23,11 @@ layout: default
         </div>
       </div>
     </div>
-    <img src="/images/explore.jpg" width="100%">
+    {% if site.lang == "en" %}
+      <img src="/images/explore_en.png" width="100%">
+    {% else %}
+      <img src="/images/explore.jpg" width="100%">
+    {% endif %}
     <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2 content-block">
