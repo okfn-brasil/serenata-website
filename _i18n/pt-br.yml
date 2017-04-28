@@ -11,9 +11,9 @@ support:
 home:
   about: Inteligência artificial para controle social da administração pública
   about_rosie: A Operação Serenata de Amor criou um Robô - uma inteligência artificial capaz de analisar cada pedido de reembolso dos deputados e identificar a probabilidade de ilegalidade.
-  last_histories: Últimas histórias publicadas
+  last_stories: Últimas histórias publicadas
   loading: Carregando...
-  more_posts: Ver todos
+  more_stories: Ver todos
 footer:
   about: Sobre
   github: Serenata no github
@@ -27,7 +27,7 @@ explore:
   about_reports: A Rosie, nossa Robô, em números
   tweet_about: Tuíte sobre esse número
   chamber_reports: Denúncias feitas a Câmara dos Deputados
-  suspitions: Deputados diferentes denunciados por gastos suspeitos
+  suspicions: Deputados diferentes denunciados por gastos suspeitos
   questionated: mil reais em gastos suspeitos questionados
   paragraph_one: Esses valores correspondem a 371% do que arrecadamos com nossa campanha de financeamento coletivo (R$ 80.424,00)
   paragraph_two: Quer saber como o processo de denúncias funciona?

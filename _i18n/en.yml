@@ -11,9 +11,9 @@ support:
 home:
   about: Artificial Intelligence for social control of public administration
   about_rosie: Operação Serenata de Amor created a Robot - An artificial intelligence capable of analysing each claim for reimbursement from congresspeople and of identifying it’s illegal probability.
-  last_histories: Last stories
+  last_stories: Last stories
   loading: Loading…
-  more_posts: More stories
+  more_stories: More stories
 footer:
   about: about
   github: Serenata on github
@@ -33,7 +33,7 @@ explore:
   paragraph_two: Want to know how the report system works?
   more: You can read more in this post (in Portuguese)
 about:
-  title: Serenata de amor operation
+  title: Serenata de Amor Operation
   who_contributed: Contributors
   paragraph_one: We make use of artificial intelligence to audit public expenses and fight corruption. The idea came from the data scientist
   paragraph_two:  when he started to wonder about many possibilities to use technology to inspect congresspeople expenses. When he shared this idea with friends, the project growth in strength in no time and the team was gathered with the goal of making this project happen.
@@ -41,41 +41,41 @@ about:
   paragraph_four: On the 7 of September the first crowdfunding campaign for the project goes live asking for money to pay for the team work full time during 2 months. In the end the campaign raised 20% more than the original target, summing up more than 25,000.00 USD.
   paragraph_five: 'We officially started the job in early November and since then the team holds daily meetings and has published tons of fully open source content — that is to say, open for the whole community. This makes part of our guideline: it is more than a technology project, our goal it is to spread information and political conscience. We want to settle a new age of open data and its public access.'
 FAQ:
-  doubts: Have doubts? Ask in our <a href="https://www.facebook.com/operacaoSerenataDeAmor" target="_blank">Facebook page</a> or find us on <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">Twitter</a>. If the subject is technical, you can write in English on <a href="https://github.com/datasciencebr/" target="_blank">GitHub</a> or our technical <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">group on Telegram</a>. If none of this works, <a href="mailto:cabral@datasciencebr.com" target="_blank">Cabral</a> is our master of communication.
+  doubts: Have doubts? Ask in our <a href="https://www.facebook.com/operacaoSerenataDeAmor" target="_blank">Facebook page</a> or find us on <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">Twitter</a>. For technical issues you can drop a line in English at our <a href="https://github.com/datasciencebr/" target="_blank">GitHub</a> or our technical <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">group on Telegram</a>. If none of this works <a href="mailto:cabral@datasciencebr.com" target="_blank">Cabral</a> is our communication guru.
   question_one: 1. Who is responsible for the project?
-  answer_one: 'We are a <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">group</a> of technology enthusiasts. The project, which started as <a href="https://datasciencebr.com" target="_blank">Data Science Brigade''s</a> initiative, CODELAND''s data science division, has grown and today has taken a life of its own, with many professionals from outside the company. All the code is open sourced, we have a body of hundreds of volunteers: employees from all over the world, including journalists and researchers.'
+  answer_one: 'We are a <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">group</a> of technology enthusiasts. The project started as a <a href="https://datasciencebr.com" target="_blank">Data Science Brigades</a> initiative, and that was CODELAND data science division, but after a while it has grown and today has taken a life of its own —  many professionals are not from these comanies. All the code is open source and we have a body of hundreds of volunteers: collaborators from all over the world, including journalists and researchers.'
   question_two: 2. Where are you?
-  answer_two: Our team is scattered across different cities and countries. We use the benefits of technology to do meetings, discuss the project and continue the work remotely, without needing a physical space.
+  answer_two: Our team is scattered across different cities and countries. We use the benefits of technology to host meetings, to discuss the project and to work remotely, without needing a physical space.
   question_three: 3. What is open source?
-  answer_three: Open source is a term used for open source code distribution where everyone interested in contributing to the evolution of the project can freely aggregate their ideas.
+  answer_three: Open source means every code we write is public, everyone interested in contributing to the evolution of the project can freely collaborate with their ideas.
   question_four: 4. What data do we use?
-  answer_four: We use public data - whether data made public by the Law on Access to Information, or private data made available publicly by companies such as Google, Foursquare, Yelp etc. In the public sphere, we obtain data from the Chamber of Deputies, Federal Revenue Service, Transparency Portal, data.gov.br etc.
-  question_five: 5. What is the quota for the exercise of parliamentary activity?
-  answer_five: The <a href="http://www.camara.gov.br/cota-parlamentar" target="_blank">Quota for Exercise of Parliamentary Activity</a> (CEAP) is a monthly amount of up to R$ 45 thousand that each Chamber of Deputies Member is entitled to compensate expenses that are not fit for public bidding. A lunch or taxi payment, for example.
-  question_six: 6. How are the reports made?
-  answer_six: The denunciations are made directly to the House of Representatives through a panel of cases with the highest likelihood of illegality found by Rosie. We have created some <a href="https://datasciencebr.com/como-est%C3%A1-acontecendo-a-hackaton-de-den%C3%BAncias-da-opera%C3%A7%C3%A3o-serenata-de-amor-a8bd193e0c76#.stz4qx3sc" target="_blank">internal tools</a> that we intend to refine in order to be able to offer them publicly soon.
-  question_seven: 7. Where can I send in questions/compliments/suggestions?
-  answer_seven: You can contact us via the operation <a href="https://www.facebook.com/operacaoSerenataDeAmor/" target="_blank">page on Facebook</a> or talk to Cabral, our operations master, by <a href="mailto:cabral@datasciencebr.com" target="_blank">email</a>. If you are from the technical area, you can talk to us directly <a href="https://github.com/datasciencebr/" target="_blank">through GitHub</a> as well.
+  answer_four: We use public data – whether it is data made public by the Law on Access to Information, or private data made available publicly by companies such as Google, Foursquare, Yelp etc. In the public sphere, we obtain data from the Chamber of Deputies, Federal Revenue Service, Transparency Portal, data.gov.br etc.
+  question_five: 5. What is the Quota for the Exercise of Parliamentary Activity?
+  answer_five: The <a href="http://www.camara.gov.br/cota-parlamentar" target="_blank">Quota for Exercise of Parliamentary Activity</a> (CEAP in the acronym in Portuguese) is a monthly amount of up to R$ 45 thousand that each Chamber of Deputies Member is entitled to reimbursement for expenses that are not fit for public bidding. A lunch or taxi payment, for example.
+  question_six: 6. How do you report suspicious cases?
+  answer_six: The reports are made directly to the House of Representatives through a panel of cases with the highest likelihood of illegality found by Rosie. We have created some <a href="https://datasciencebr.com/como-est%C3%A1-acontecendo-a-hackaton-de-den%C3%BAncias-da-opera%C3%A7%C3%A3o-serenata-de-amor-a8bd193e0c76#.stz4qx3sc" target="_blank">internal tools</a> that we intend to refine in order to be able to offer them publicly soon.
+  question_seven: 7. How can i get in touch to ask a questions, make compliments or share suggestions?
+  answer_seven: You can contact us via the operation <a href="https://www.facebook.com/operacaoSerenataDeAmor/" target="_blank">page on Facebook</a> or talk to Cabral, our communication master, by <a href="mailto:cabral@datasciencebr.com" target="_blank">email</a>. If you are from the technical area you can talk to us directly <a href="https://github.com/datasciencebr/" target="_blank">through GitHub</a> as well.
   question_eight: 8. What is the technical communication channel of the project?
-  answer_eight: We are currently speaking English, in an <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">open Telegram group</a>. You are very welcome to join it.
-  question_nine: 9. Why is the technical communication done in English?
-  answer_nine: We have a community created around the project that goes beyond Brazil - people from other countries interested in contributing. Within the Github repository and on our Telegram channel, we chose to use the English language so we can include the opinions of these people in the discussion. In addition, several people from other countries have shown interest in our code since day zero. Keeping the code and all technical documentation in English, we make it easy for our effort to be used in other countries of the world.
+  answer_eight: Currently we have an <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">open Telegram group</a>. You are very welcome to join it. The official language there is English.
+  question_nine: 9. Why is the technical communication held in English?
+  answer_nine: We have a community created around the project that goes beyond Brazil – that is to say people from other countries interested in contributing. Within the Github repository and the Telegram group we chose to use the English language so we can include the views of these people in the discussion. In addition, several people from other countries have shown interest in our code since day zero. By keeping the code and all technical documentation in English we make it easy for our effort to be used in other countries of the world.
   question_ten: 10. What is Machine Learning?
-  answer_ten: 'To talk about Machine Learning, we have selected a video that summarizes everything we need to know about it: <a href="https://youtu.be/b4MxnoisnOM" target="_blank">What is machine learning?</a>'
+  answer_ten: 'To talk about Machine Learning we have selected a video that summarizes everything we need to know about it: <a href="https://youtu.be/b4MxnoisnOM" target="_blank">What is machine learning?</a>'
   question_eleven: 11. What is artificial intelligence?
   answer_eleven: We wrote a post about <a href="https://datasciencebr.com/a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-930b5cc2aa42" target="_blank">the difference between Artificial Intelligence, Machine Learning and Deep Learning</a> - I think it can help you.
-  question_twelve: 12. Why are we using python?
-  answer_twelve: We use python because it provides us with the vast majority of libraries available for data analysis and machine learning.
+  question_twelve: 12. Why are we using Python?
+  answer_twelve: We use python because it provides tons of libraries for data analysis and machine learning.
   question_thirteen: 13. What is Jarbas?
-  answer_thirteen: <a href="https://jarbas.datasciencebr.com/" target="_blank">Jarbas</a> is a tool created by us to facilitate the visualization of the data being mined by our Robot. Essential for investigative work. It has emerged as an internal tool but gradually we will improve its interface so that it becomes a tool of public utility.
+  answer_thirteen: <a href="https://jarbas.datasciencebr.com/" target="_blank">Jarbas</a> is a tool created by us to make it easy to visualize the data mined by our robot. It is essential for investigative work. It has emerged as an internal tool but gradually we will improve its interface aiming at a tool of public utility.
   question_fourteen: 14. What is Rosie?
-  answer_fourteen: <a href="https://github.com/datasciencebr/rosie" target="_blank">Rosie</a> is our Robot that was programmed to identify illegal uses of public funds, beginning with CEAP. She judges every one of the reimbursements requested by our Members, telling us what are the motives that make each one illegal.
+  answer_fourteen: <a href="https://github.com/datasciencebr/rosie" target="_blank">Rosie</a> is our robot programmed to identify illegal uses of public funds, beginning with CEAP. She judges every reimbursement claimed by our congresspeople, and she tells us what are the reasons that made each one suspicions.
   question_fifteen: 15. How was the project born?
-  answer_fifteen: The <a href="/sobre" target="_blank">first phase</a> of the project, which lasted two months, was carried out through a <a href="https://www.catarse.me/serenata" target="_blank">crowdfunding campaign</a>. Over 1296 helped us make the project a reality.
+  answer_fifteen: The <a href="/sobre" target="_blank">first phase</a> of the project lasted two months was supported by a <a href="https://www.catarse.me/serenata" target="_blank">crowdfunding campaign</a>. Over 1296 helped us make the project hapen.
   question_sixteen: 16. How can I contribute to the project?
-  answer_sixteen: You can contribute to the project with code, helping to keep the team, ideas, <a href="https://twitter.com/search?q=%23serenatadeamor" target="_blank">retweets</a>  and shares. To understand how to start contributing code, <a href="https://datasciencebr.com/how-does-one-contribute-to-serenata-de-amor-operation-36e3e7b38207#.een62m7or" target="_blank">read this post</a>. To contribute directly to the continuation of the project, you can access our page at <a href="https://apoia.se/serenata" target="_blank">apoia.se</a>.
-  question_seventeen: 17. What does the name Serenade of Love mean?
-  answer_seventeen: 'The reasons are three: <br>1 - We are inspired directly in the famous Toblerone Case - a famous event where a politics in Switzerland resigned after being caught with a simple Toblerone in the invoice of his corporate card. We want to do this: find corruption at small expense, but in large volume. <br>2 - It seems to be the operation name of the Federal Police, and this is very cool. <br>3 - It''s our Serenade of Love for Brazil.'
-  question_eighteen: 18. Are you protecting MPs by not divulging the suspects' names?
-  answer_eighteen: No, we are protecting ourselves and our community. To minimize the chance of a crime against honor we only disclose names when some official instance corroborates our suspicions. But the data is open and our tools too, feel free to do an audit yourself!
+  answer_sixteen: You can contribute to the project with code, helping to maintain the team, with ideas,  <a href="https://twitter.com/search?q=%23serenatadeamor" target="_blank">retweets</a> and shares. To understand how to get started with our code base, <a href="https://datasciencebr.com/how-does-one-contribute-to-serenata-de-amor-operation-36e3e7b38207#.een62m7or" target="_blank">check this post</a>. To  directly contribute to the maintenance of the project you can tip us at <a href="https://apoia.se/serenata" target="_blank">apoia.se</a>.
+  question_seventeen: 17. What does the name Serenata de Amor mean?
+  answer_seventeen: 'There three reasons: <br>1 - We are  directly inspired by the famous Toblerone Affair – a famous case in which a politician in Sweden resigned after being caught with a simple Toblerone in the invoice of her corporate card. We want to do this: find corruption at small scale, but in large volume. <br>2 - It seems to be the a nonsense operation name typical of the Brazilian Federal Police, and this is very cool. <br>3 - It literally means love serenade — so this is our love serenade to Brazil.'
+  question_eighteen: 18. Are you protecting MPs by not publicizing their names when you find a suspicion?
+  answer_eighteen: No, we are protecting ourselves and our community. To minimize the chance of criminal offenses against honor we only disclose names when some official instance corroborates our suspicions. But all the data we use is open, and so are our tools – feel free to audit and chek names yourself!
 ---
