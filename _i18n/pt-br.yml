@@ -1,4 +1,4 @@
----
+suspicions---
 global:
   brazilian portuguese: Português
   english: English
@@ -27,7 +27,7 @@ explore:
   about_reports: A Rosie, nossa Robô, em números
   tweet_about: Tuíte sobre esse número
   chamber_reports: Denúncias feitas a Câmara dos Deputados
-  suspitions: Deputados diferentes denunciados por gastos suspeitos
+  suspicions: Deputados diferentes denunciados por gastos suspeitos
   questionated: mil reais em gastos suspeitos questionados
   paragraph_one: Esses valores correspondem a 371% do que arrecadamos com nossa campanha de financeamento coletivo (R$ 80.424,00)
   paragraph_two: Quer saber como o processo de denúncias funciona?
