@@ -47,7 +47,11 @@ layout: default
       <div class="row">
         <div class="col-md-12">
           <div class="pull-right">
-            <a href="#" class="more-posts-link">{% translate home.more_stories %}</a>
+            {% if site.lang == "en" %}
+              <li class="active"><a href="/en/stories/" class="more-posts-link">{% translate home.more_stories %}</a></li>
+            {% else %}
+              <li class="active"><a href="/stories/" class="more-posts-link">{% translate home.more_stories %}</a></li>
+            {% endif %}
           </div>
         </div>
       </div>
