@@ -78,4 +78,6 @@ FAQ:
   answer_seventeen: 'There three reasons: <br>1 - We are  directly inspired by the famous Toblerone Affair – a famous case in which a politician in Sweden resigned after being caught with a simple Toblerone in the invoice of her corporate card. We want to do this: find corruption at small scale, but in large volume. <br>2 - It seems to be the a nonsense operation name typical of the Brazilian Federal Police, and this is very cool. <br>3 - It literally means love serenade — so this is our love serenade to Brazil.'
   question_eighteen: 18. Are you protecting MPs by not publicizing their names when you find a suspicion?
   answer_eighteen: No, we are protecting ourselves and our community. To minimize the chance of criminal offenses against honor we only disclose names when some official instance corroborates our suspicions. But all the data we use is open, and so are our tools – feel free to audit and chek names yourself!
+  question_nineteen: 19. Can I use the source code of Serenata de Amor in my city, state or country?
+  answer_nineteen: Sure, this idea is awesome — and also this idea is one of the main purposes of our adoption of open source.
 ---

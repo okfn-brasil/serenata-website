@@ -78,4 +78,6 @@ FAQ:
   answer_seventeen: 'Os motivos são três:<br> 1 - Nos inspiramos diretamente no famoso Caso Toblerone - um famoso acontecimento onde uma política na Suécia renunciou o seu cargo após ser flagrada com um simples Toblerone na fatura de seu cartão corporativo. Queremos fazer isso: encontrar corrupção em pequenos gastos, mas em volume grande.<br> 2 - Parece nome de operação da Polícia Federal, e isso é muito legal.<br> 3 - É a nossa Serenata de Amor para o Brasil.'
   question_eighteen: 18. Vocês estão protegendo os deputados não divulgando o nome dos suspeitos?
   answer_eighteen: Não, estamos protegendo a nós e a nossa comunidade. Para minimizar a chance de processo de crime contra a honra só divulgamos nomes quando alguma instância oficial corrobora nossas suspeitas. Mas os dados são abertos e nossas ferramentas também, fique à vontade para fazer uma auditoria você mesmo!
+  question_nineteen: 19. Posso usar o código da Serenata de Amor na minha cidade, no meu estado ou no meu país?
+  answer_nineteen: Claro, essa ideia é sensacional — e é um dos principais motivos de adotarmos código aberto. <a href="https://medium.com/data-science-brigade/expandindo-a-serenata-de-amor-para-outras-esferas-48bed204d36d">Esse artigo explica isso pode ocorrer</a>.
 ---
