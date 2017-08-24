@@ -65,7 +65,7 @@ FAQ:
   question_eleven: 11. What is artificial intelligence?
   answer_eleven: We wrote a post about <a href="https://datasciencebr.com/a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-930b5cc2aa42" target="_blank">the difference between Artificial Intelligence, Machine Learning and Deep Learning</a> - I think it can help you.
   question_twelve: 12. Why are we using Python?
-  answer_twelve: We use python because it provides tons of libraries for data analysis and machine learning.
+  answer_twelve: We use Python because it provides tons of libraries for data analysis and machine learning.
   question_thirteen: 13. What is Jarbas?
   answer_thirteen: <a href="https://jarbas.datasciencebr.com/" target="_blank">Jarbas</a> is a tool created by us to make it easy to visualize the data mined by our robot. It is essential for investigative work. It has emerged as an internal tool but gradually we will improve its interface aiming at a tool of public utility.
   question_fourteen: 14. What is Rosie?
