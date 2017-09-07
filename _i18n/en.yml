@@ -26,11 +26,21 @@ explore:
   reports: Reports
   about_reports: Rosie, our Robot, in numbers
   tweet_about: Tweet about this figure
-  chamber_reports: Cases reported to the Chamber of Deputies
-  suspicions: Different congresspeople reported for suspicious reimbursements
-  questionated: thousand Brazilian Reals questioned in suspicious expenses
-  paragraph_one: This amount corresponds to 371% of what we raised through our crowdfunding campaign (~US$ 25,000.00)
-  paragraph_two: Want to know how the report system works?
+  suspicions:
+    amount: "8,276"
+    description: suspicious reimbursement found
+    tweet: 8.276%20suspicious%20reimbursements%20from%20Brazilian%20representatives%20found%20by%20%40RosieDaSerenata.%20More%20about%20%23SerenataDeAmor%20http%3A%2F%2Fserenatadeamor.org
+  congresspeople:
+    amount: "735"
+    description: Different congresspeople involved in suspicions
+    tweet: 735%20Brazilian%20representatives%20found%20by%20%40RosieDaSerenata%20with%20suspicious%20reimbursements.%20More%20about%20%20%23SerenataDeAmor%20http%3A%2F%2Fserenatadeamor.org
+  money:
+    amount: 3.6M BRL
+    description: found in suspicious reimbursements
+    tweet: 3.6M%20BRL%20found%20in%20suspicions%20reimbursement%20by%20%40RosieDaSerenata.%20More%20about%20%20%23SerenataDeAmor%20http%3A%2F%2Fserenatadeamor.org
+  paragraph_one: We reported 629 suspicious reimbursement to the Chamber of Deputies involving 216 different congresspeople and more than 378k BRL.
+  paragraph_two: This amount corresponds to 371% of what we raised through our crowdfunding campaign (~US$ 25,000.00)
+  paragraph_three: Want to know how the report system works?
   more: You can read more in this post (in Portuguese)
 about:
   title: Serenata de Amor Operation

@@ -28,7 +28,7 @@ github:
   repo:             https://github.com/datasciencebr/serenata-website
 
 #i18n
-gems:
+plugins:
                     - jekyll-multiple-languages-plugin
 languages:          ["pt-br", "en"]
 exclude_from_localizations: ["javascript", "css"]
