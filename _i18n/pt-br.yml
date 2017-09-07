@@ -64,8 +64,8 @@ FAQ:
   answer_ten: 'Para falar sobre Machine Learning, selecionamos um vídeo que sumariza tudo que precisamos saber para entender sobre o assunto: <a href="https://youtu.be/b4MxnoisnOM" target="_blank">O que é machine learning?</a>'
   question_eleven: 11. O que é inteligência artificial?
   answer_eleven: Escrevemos um post sobre <a href="https://datasciencebr.com/a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-930b5cc2aa42" target="_blank">a diferença Entre Inteligência Artificial, Machine Learning e Deep Learning</a> — acho que ele pode te ajudar.
-  question_twelve: 12. Por que estamos usando python?
-  answer_twelve: Usamos python por que ele nos fornece a grande maioria de bibliotecas disponíveis para análise de dados e aprendizagem de máquina.
+  question_twelve: 12. Por que estamos usando Python?
+  answer_twelve: Usamos Python por que ele nos fornece a grande maioria de bibliotecas disponíveis para análise de dados e aprendizagem de máquina.
   question_thirteen: 13. O que é o Jarbas?
   answer_thirteen: O <a href="https://jarbas.datasciencebr.com/" target="_blank">Jarbas</a> é uma ferramenta criada por nós para facilitar a visualização dos dados que estão sendo minerados por nosso Robô. Essencial para o trabalho investigativo. Ele surgiu como uma ferramenta interna mas aos poucos vamos melhorar a interface dele para que ele se torne uma ferramenta de utilidade pública.
   question_fourteen: 14. O que é a Rosie?
@@ -76,6 +76,6 @@ FAQ:
   answer_sixteen: Você pode contribuir para o projeto com código, ajudando a manter a equipe, com ideias, com <a href="https://twitter.com/search?q=%23serenatadeamor" target="_blank">retuítes</a> e compartilhamentos. Para entender como começar a contribuir com código, leia <a href="https://datasciencebr.com/how-does-one-contribute-to-serenata-de-amor-operation-36e3e7b38207#.een62m7or" target="_blank">este post</a>. Para contribuir diretamente para a continuação do projeto, você pode acessar a nossa página no <a href="https://apoia.se/serenata" target="_blank">apoia.se</a>.
   question_seventeen: 17. O que o nome Serenata de Amor significa?
   answer_seventeen: 'Os motivos são três:<br> 1 - Nos inspiramos diretamente no famoso Caso Toblerone - um famoso acontecimento onde uma política na Suécia renunciou o seu cargo após ser flagrada com um simples Toblerone na fatura de seu cartão corporativo. Queremos fazer isso: encontrar corrupção em pequenos gastos, mas em volume grande.<br> 2 - Parece nome de operação da Polícia Federal, e isso é muito legal.<br> 3 - É a nossa Serenata de Amor para o Brasil.'
-  question_eighteen: 18. Vocês estão protegendo os deputados não divulgando o nome dos suspeitos?
-  answer_eighteen: Não, estamos protegendo a nós e a nossa comunidade. Para minimizar a chance de processo de crime contra a honra só divulgamos nomes quando alguma instância oficial corrobora nossas suspeitas. Mas os dados são abertos e nossas ferramentas também, fique à vontade para fazer uma auditoria você mesmo!
+  question_eighteen: 18. Posso usar o código da Serenata de Amor na minha cidade, no meu estado ou no meu país?
+  answer_eighteen: Claro, essa ideia é sensacional — e é um dos principais motivos de adotarmos código aberto. <a href="https://medium.com/data-science-brigade/expandindo-a-serenata-de-amor-para-outras-esferas-48bed204d36d">Esse artigo explica isso pode ocorrer</a>.
 ---

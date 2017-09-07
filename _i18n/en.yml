@@ -65,7 +65,7 @@ FAQ:
   question_eleven: 11. What is artificial intelligence?
   answer_eleven: We wrote a post about <a href="https://datasciencebr.com/a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-930b5cc2aa42" target="_blank">the difference between Artificial Intelligence, Machine Learning and Deep Learning</a> - I think it can help you.
   question_twelve: 12. Why are we using Python?
-  answer_twelve: We use python because it provides tons of libraries for data analysis and machine learning.
+  answer_twelve: We use Python because it provides tons of libraries for data analysis and machine learning.
   question_thirteen: 13. What is Jarbas?
   answer_thirteen: <a href="https://jarbas.datasciencebr.com/" target="_blank">Jarbas</a> is a tool created by us to make it easy to visualize the data mined by our robot. It is essential for investigative work. It has emerged as an internal tool but gradually we will improve its interface aiming at a tool of public utility.
   question_fourteen: 14. What is Rosie?
@@ -76,6 +76,6 @@ FAQ:
   answer_sixteen: You can contribute to the project with code, helping to maintain the team, with ideas,  <a href="https://twitter.com/search?q=%23serenatadeamor" target="_blank">retweets</a> and shares. To understand how to get started with our code base, <a href="https://datasciencebr.com/how-does-one-contribute-to-serenata-de-amor-operation-36e3e7b38207#.een62m7or" target="_blank">check this post</a>. To  directly contribute to the maintenance of the project you can tip us at <a href="https://apoia.se/serenata" target="_blank">apoia.se</a>.
   question_seventeen: 17. What does the name Serenata de Amor mean?
   answer_seventeen: 'There three reasons: <br>1 - We are  directly inspired by the famous Toblerone Affair – a famous case in which a politician in Sweden resigned after being caught with a simple Toblerone in the invoice of her corporate card. We want to do this: find corruption at small scale, but in large volume. <br>2 - It seems to be the a nonsense operation name typical of the Brazilian Federal Police, and this is very cool. <br>3 - It literally means love serenade — so this is our love serenade to Brazil.'
-  question_eighteen: 18. Are you protecting MPs by not publicizing their names when you find a suspicion?
-  answer_eighteen: No, we are protecting ourselves and our community. To minimize the chance of criminal offenses against honor we only disclose names when some official instance corroborates our suspicions. But all the data we use is open, and so are our tools – feel free to audit and chek names yourself!
+  question_eighteen: 18. Can I use the source code of Serenata de Amor in my city, state or country?
+  answer_eighteen: Sure, this idea is awesome — and also this idea is one of the main purposes of our adoption of open source.
 ---
