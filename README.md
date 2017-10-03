@@ -1,6 +1,8 @@
 [![donate](https://img.shields.io/badge/donate-apoia.se-red.svg)](https://apoia.se/serenata)
 # Serenata Website
 
+[![donate](https://img.shields.io/badge/donate-apoia.se-red.svg)](https://apoia.se/serenata)
+
 ## Setup
 
 ```console
