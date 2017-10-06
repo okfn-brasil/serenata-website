@@ -10,7 +10,7 @@ support:
   fund_us: Apoie o projeto
 home:
   about: Inteligência artificial para controle social da administração pública
-  about_rosie: A Operação Serenata de Amor criou um Robô - uma inteligência artificial capaz de analisar cada pedido de reembolso dos deputados e identificar a probabilidade de ilegalidade.
+  about_rosie: A Operação Serenata de Amor criou a <a href="https://twitter.com/RosieDaSerenata" class="purple">Rosie</a> - uma inteligência artificial capaz de analisar cada pedido de reembolso dos deputados e identificar a probabilidade de ilegalidade.
   last_stories: Últimas histórias publicadas
   loading: Carregando...
   more_stories: Ver todos
