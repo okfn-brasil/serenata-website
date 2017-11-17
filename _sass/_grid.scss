@@ -1,0 +1,142 @@
+// Imports
+// ====
+
+@import '_variables';
+
+
+// Grid
+// ====
+
+header {
+  display: flex;
+  min-height: 100px;
+  
+  background-color: $purple-primary;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  // height: calc(100% - 165px); // header height + footer height 
+}
+
+.call-to-action {
+  flex: 1 0 100%;
+  min-height: 605px;
+  background-color: green;
+}
+
+.cards {
+  display: flex;
+  flex: 1 0 100%;
+  margin: 20px auto;
+  
+  flex-direction: column;
+  
+  aside {
+    flex: 3 1 30%;
+    min-height: 380px;
+    
+    &:first-child {
+      background-color: red;
+    }
+    
+    &:nth-child(2) {
+      background-color: gray;
+    }
+    
+    &:last-child {
+      background-color: brown;
+    }
+  }
+}
+
+.current-goal {
+  display: flex;
+  flex: 1 0 100%;
+  margin: 0 0 20px 0;
+  min-height: 400px;
+  
+  flex-direction: column;
+  
+  aside {
+    &:first-child {
+      background-color: blue;
+      flex-basis: 40%;
+    }
+    
+    &:last-child {
+      background-color: yellow;
+      flex-basis: 60%;
+    }
+  }
+}
+
+.support-link {
+  flex: 1 0 100%;
+  background-color: $pink-primary;
+  text-align: right;
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+.last-posts {
+  display: flex;
+  flex: 1 0 100%;
+  margin: 20px auto;
+  
+  flex-direction: column;
+  
+  articles {
+    flex: 3 1 30%;
+    min-height: 380px;
+    
+    &:first-child {
+      background-color: red;
+    }
+    
+    &:nth-child(2) {
+      background-color: gray;
+    }
+    
+    &:last-child {
+      background-color: brown;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  min-height: 65px;
+  background-color: $purple-primary;
+}
+
+
+// Responsive
+// ====
+
+// Tablets
+@media screen and (min-width: 768px) {
+  .cards {
+    flex-direction: row;
+  }
+  
+  .current-goal {
+    flex-direction: row;
+  }
+  
+  .last-posts {
+    flex-direction: row;
+  }
+}
+
+// Desktops
+@media screen and (min-width: 992px) {}
+
+// Large Desktops
+@media screen and (min-width: 1200px) {}
