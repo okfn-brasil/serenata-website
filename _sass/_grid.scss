@@ -90,24 +90,18 @@ main {
   display: flex;
   flex: 1 0 100%;
   margin: 20px auto;
+  justify-content: center;
   
   flex-direction: column;
   
-  articles {
+  article {
     flex: 3 1 30%;
-    min-height: 380px;
+    min-height: 300px;
+    margin-bottom: 10px;
     
-    &:first-child {
-      background-color: red;
-    }
-    
-    &:nth-child(2) {
-      background-color: gray;
-    }
-    
-    &:last-child {
-      background-color: brown;
-    }
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
   }
 }
 
@@ -133,6 +127,15 @@ footer {
   
   .last-posts {
     flex-direction: row;
+
+    article {
+      margin: 0 10px;
+    }
+  }
+
+  .posts-thumb-area {
+    display: flex;
+    align-content: space-around;
   }
 }
 
