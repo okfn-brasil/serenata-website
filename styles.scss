@@ -3,6 +3,9 @@
 # only main files contain this front matter, not partials.
 ---
 
+// Common
 @import "grid";
 @import "base";
+
+// Home
 @import "last-posts";
