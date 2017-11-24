@@ -1,94 +1,131 @@
-var createHomeThumbs = function (post) {
+// Classes
+// ====
 
-  var col = document.createElement('div');
-  col.setAttribute('class', 'col-md-4');
+class Posts {
+  constructor() {
+    this.postsUrl = 'https://medium-dsbr-proxy.herokuapp.com/';
 
-  var thumb = document.createElement('div');
-  thumb.setAttribute('class', 'post-thumb');
+    this.buildPosts = this.buildPosts.bind(this);
+    this.handleError = this.handleError.bind(this);
+    this.createHomeThumbs = this.createHomeThumbs.bind(this);
+    this.createStoriesThumbs = this.createStoriesThumbs.bind(this);
+  }
 
-  var link = document.createElement('a');
-  link.setAttribute('href', post.url);
+  loadPosts() {
+    const request = fetch(this.postsUrl);
+    
+    request
+      .then((data) => data.json())
+      .then((data) => this.buildPosts(data))
+      .catch((err) => this.handleError(err));
+  }
 
-  var img = document.createElement('div');
-  img.setAttribute('class', 'post-thumb-img');
-  img.setAttribute('style', 'background-image:  url(' + post.image + ')');
+  handleError(err) {
+    throw new Error(err);
+  }
 
-  var title = document.createElement('h3');
-  title.setAttribute('class', 'post-title');
-  title.innerHTML = post.title;
+  buildPosts(posts) {
+    let homePosts = document.querySelectorAll('.posts-thumb-area');
+    
+    if (homePosts.length) {
+      homePosts.forEach((el) => el.innerHTML = '');
 
-  link.appendChild(img);
-  link.appendChild(title);
-  thumb.appendChild(link);
-  col.appendChild(thumb);
+      for (let i = 0; i < 3; i++) {
+        homePosts.forEach((el) => el.append(this.createHomeThumbs(posts[i])));
+      }
+    }
 
-  return col;
+    let storiesPosts = document.querySelectorAll('.histories-thumb-area');
 
-};
+    if (storiesPosts.length) {
+      storiesPosts.forEach((el) => el.innerHTML = '');
 
-var createStoriesThumbs = function (post) {
-
-  var link = document.createElement('a');
-  link.setAttribute('href', post.url);
-
-  var row = document.createElement('div');
-  row.setAttribute('class', 'row');
-
-  var col = document.createElement('div');
-  col.setAttribute('class', 'col-md-4');
-
-  var thumb = document.createElement('div');
-  thumb.setAttribute('class', 'histories-thumb');
-  thumb.setAttribute('style', 'background-image:  url(' + post.image + ')');
-
-  var d_col = document.createElement('div');
-  d_col.setAttribute('class', 'col-md-8');
-
-  var d_thumb = document.createElement('div');
-  d_thumb.setAttribute('class', 'histories-description');
-
-  var title = document.createElement('h3');
-  title.innerHTML = post.title;
-
-  var text = document.createElement('p');
-  text.innerHTML = post.snippet;
-
-  d_thumb.appendChild(title);
-  d_thumb.appendChild(text);
-  d_col.appendChild(d_thumb);
-  col.appendChild(thumb);
-  row.appendChild(col);
-  row.appendChild(d_col);
-  link.appendChild(row);
-
-  return link;
-
-};
-
-var loadPosts = function (posts) {
-
-  var homePosts = $('.posts-thumb-area');
-  if (homePosts.length) {
-    homePosts.empty();
-    for (var i = 0; i < 3; i++) {
-      homePosts.append(createHomeThumbs(posts[i]));
+      posts.forEach((post) => {
+        storiesPosts.forEach((el) => el.append(this.createStoriesThumbs(post)));
+      });
     }
   }
 
-  var storiesPosts = $('.histories-thumb-area');
-  if (storiesPosts.length) {
-      storiesPosts.empty();
-      posts.forEach(function(post) {
-        storiesPosts.append(createStoriesThumbs(post));
-      });
-  }
-};
+  createHomeThumbs(post) {
+    const { image, snippet, title, url } = post;
 
-$(document).ready(function(){
-  $.ajax({
-    "type": "json",
-    "method": "GET",
-    "url": "https://medium-dsbr-proxy.herokuapp.com/",
-    "success": loadPosts
-  });
-});
+    let postCard = document.createElement('article');
+    postCard.setAttribute('class', 'post-card');
+
+    let postImage = document.createElement('figure');
+    postImage.setAttribute('class', 'post-card_image');
+    
+    let postImg = document.createElement('img');
+    postImg.setAttribute('src', image);
+    
+    let postTitle = document.createElement('h3');
+    postTitle.setAttribute('class', 'post-card_title');
+    postTitle.innerHTML = title;
+
+    let postLink = document.createElement('a');
+    postLink.setAttribute('class', 'post-card_link');
+    postLink.setAttribute('href', url);
+    postLink.setAttribute('rel', 'noopener');
+    postLink.setAttribute('target', '_blank');
+    postLink.innerHTML = 'Ler';
+
+    // append
+    postImage.appendChild(postImg);
+
+    postCard.appendChild(postImage);
+    postCard.appendChild(postTitle);
+    postCard.appendChild(postLink);
+
+    return postCard;
+  }
+
+  createStoriesThumbs(post) {
+    // const { image, snippet, title, url } = post;
+
+    let link = document.createElement('a');
+    link.setAttribute('href', post.url);
+
+    let row = document.createElement('div');
+    row.setAttribute('class', 'row');
+
+    let col = document.createElement('div');
+    col.setAttribute('class', 'col-md-4');
+
+    let thumb = document.createElement('div');
+    thumb.setAttribute('class', 'histories-thumb');
+    thumb.setAttribute('style', 'background-image:  url(' + post.image + ')');
+
+    let d_col = document.createElement('div');
+    d_col.setAttribute('class', 'col-md-8');
+
+    let d_thumb = document.createElement('div');
+    d_thumb.setAttribute('class', 'histories-description');
+
+    let title = document.createElement('h3');
+    title.innerHTML = post.title;
+
+    let text = document.createElement('p');
+    text.innerHTML = post.snippet;
+
+    // append
+    d_thumb.appendChild(title);
+    d_thumb.appendChild(text);
+
+    d_col.appendChild(d_thumb);
+
+    col.appendChild(thumb);
+
+    row.appendChild(col);
+    row.appendChild(d_col);
+
+    link.appendChild(row);
+
+    return link;
+  }
+}
+
+// Initialize
+// ====
+
+const SerenataPosts = new Posts();
+SerenataPosts.loadPosts();
