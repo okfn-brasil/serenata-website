@@ -64,11 +64,13 @@ layout: default
 
   <section class="last-posts">
     <div class="container">
-      <h1>{% translate home.last_stories %}</h1>
+      <h1>
+        {% translate home.last_stories %}
+      </h1>
 
-      <article class="posts-thumb-area">
+      <section class="posts-thumb-area">
          {% translate home.loading %}
-      </article>
+      </section>
 
       <div>
         {% if site.lang == "en" %}
