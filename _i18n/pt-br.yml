@@ -1,24 +1,24 @@
 ---
-global:
-  brazilian portuguese: Português
-  english: English
-header:
-  stories: Histórias
-  explore: Explore
+sections:
+  stories: Artigos
+  explore: Números
   about: Sobre
-support:
+  faq: FAQ
+  in_other_language: "[In English]"
   fund_us: Apoie o projeto
 home:
-  about: Inteligência artificial para controle social da administração pública
-  about_rosie: A Operação Serenata de Amor criou a <a href="https://twitter.com/RosieDaSerenata" class="purple">Rosie</a> - uma inteligência artificial capaz de analisar cada pedido de reembolso dos deputados e identificar a probabilidade de ilegalidade.
-  last_stories: Últimas histórias publicadas
-  loading: Carregando...
+  tagline: Inteligência artificial para controle social da administração pública
+  about: Um projeto aberto que usa ciência de dados (e as mesmas tecnologias utilizadas por gigantes como Google, Facebook e Netflix) para fiscalizar gastos públicos e compartilha as informações de forma acessível a qualquer pessoa.
+  rosie: "A Serenata criou a <a href='https://twitter.com/RosieDaSerenata' class='purple'>Rosie</a>: uma inteligência artificial capaz de analisar cada um dos gastos de deputados federais e senadores feitos em exercício de sua função, identificando suspeitas e incentivando a população a questioná-los."
+  jarbas: "Para que a população consiga entender a informação gerada pela Rosie, foi criado o <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a>. Um site onde é possível navegar pelos gastos e descobrir mais sobre cada suspeita. O trabalho de validar uma suspeita começa nele."
+  latest_stories: Artigos
+  loading: Carregando…
   more_stories: Ver todos
 footer:
-  about: Sobre
-  github: Serenata no github
-  contact: contato
-  partners: parceiros
+  github: Serenata no GitHub
+  facebook: Serenata no Facebook
+  contact: Contato
+  partners: Parceiros
 stories:
   published: Histórias publicadas
   loading: Carregando...

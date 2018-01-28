@@ -15,37 +15,26 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav pull-right menu">
           {% if site.lang == "en" %}
-            <li class="active"><a href="/en/stories/">{% translate header.stories %}</a></li>
+            <li class="active"><a href="/en/stories/">{% t sections.stories %}</a></li>
+            <li><a href="/en/explore/">{% t sections.explore %}</a></li>
+            <li><a href="/en/about/">{% t sections.about %}</a></li>
+            <li><a href="/en/faq/">{% t sections.faq %}</a></li>
+            <li><a href="/">{% t sections.in_other_language %}</a></li>
           {% else %}
-            <li class="active"><a href="/stories/">{% translate header.stories %}</a></li>
-          {% endif %}
-          {% if site.lang == "en" %}
-            <li><a href="/en/explore/">{% translate header.explore %}</a></li>
-          {% else %}
-            <li><a href="/explore/">{% translate header.explore %}</a></li>
-          {% endif %}
-          {% if site.lang == "en" %}
-            <li><a href="/en/about/">{% translate header.about %}</a></li>
-          {% else %}
-            <li><a href="/about/">{% translate header.about %}</a></li>
-          {% endif %}
-          {% if site.lang == "en" %}
-            <li><a href="/en/faq/">FAQ</a></li>
-          {% else %}
-            <li><a href="/faq/">FAQ</a></li>
-          {% endif %}
-          {% if site.lang == "en" %}
-            <li><a href="/">PT_BR</a></li>
-          {% else %}
-            <li><a href="/en">EN</a></li>
+            <li class="active"><a href="/stories/">{% t sections.stories %}</a></li>
+            <li><a href="/explore/">{% t sections.explore %}</a></li>
+            <li><a href="/about/">{% t sections.about %}</a></li>
+            <li><a href="/faq/">{% t sections.faq %}</a></li>
+            <li><a href="/en">{% t sections.in_other_language %}</a></li>
           {% endif %}
         </ul>
       </div>
     </div>
   </nav>
+
   <div class="support-cta">
     <a href="https://apoia.se/serenata" target="_blank" class="support-cta-anchor">
-      {% translate support.fund_us %}
+      {% t sections.fund_us %}
     </a>
   </div>
 </header>
