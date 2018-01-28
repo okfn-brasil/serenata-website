@@ -1,39 +1,40 @@
 ---
 layout: default
 ---
-  <div class="content-block">
-    <div class="container mB-60">
-      <h1>{% translate explore.reports %}</h1>
-      <p>{% translate explore.about_reports %}</p>
-      <div class="row m-0">
-        <div class="col-md-4 p-0">
-          <h4>{% translate explore.suspicions.amount %}</h4>
-          <p>{% translate explore.suspicions.description %}</p>
-          <a class="btn-link" href="https://twitter.com/home?status={% translate explore.suspicions.tweet %}" target="_blank"><button class="btn-white">{% translate explore.tweet_about %}</button></a>
-        </div>
-        <div class="col-md-4 p-0">
-          <h4>{% translate explore.congresspeople.amount %}</h4>
-          <p>{% translate explore.congresspeople.description %}</p>
-          <a class="btn-link" href="https://twitter.com/home?status={% translate explore.congresspeople.tweet %}" target="_blank"><button class="btn-white">{% translate explore.tweet_about %}</button></a>
-        </div>
-        <div class="col-md-4 p-0">
-          <h4>{% translate explore.money.amount %}</h4>
-          <p>{% translate explore.money.description %}</p>
-          <a class="btn-link" href="https://twitter.com/home?status={% translate explore.money.tweet %}" target="_blank"><button class="btn-white">{% translate explore.tweet_about %}</button></a>
-        </div>
+
+<div class="content-block">
+  <div class="container mB-60">
+    <h1>{% t explore.reports %}</h1>
+    <p>{% t explore.about_reports %}</p>
+    <div class="row m-0">
+      <div class="col-md-4 p-0">
+        <h4>{% t explore.suspicions.amount %}</h4>
+        <p>{% t explore.suspicions.description %}</p>
+        <a class="btn-link" href="https://twitter.com/home?status={% t explore.suspicions.tweet %}" target="_blank"><button class="btn-white">{% t explore.tweet_about %}</button></a>
       </div>
-    </div>
-    {% if site.lang == "en" %}
-      <img src="/images/explore_en.png" width="100%">
-    {% else %}
-      <img src="/images/explore.jpg" width="100%">
-    {% endif %}
-    <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 content-block">
-        <p>{% translate explore.paragraph_one %}</p>
-        <p>{% translate explore.paragraph_two %}</p>
-        <p>{% translate explore.paragraph_three %} <a href="https://medium.com/data-science-brigade/como-est%C3%A1-acontecendo-a-hackaton-de-den%C3%BAncias-da-opera%C3%A7%C3%A3o-serenata-de-amor-a8bd193e0c76" target='_blank'>{% translate explore.more %}</a>.</p>
+      <div class="col-md-4 p-0">
+        <h4>{% t explore.congresspeople.amount %}</h4>
+        <p>{% t explore.congresspeople.description %}</p>
+        <a class="btn-link" href="https://twitter.com/home?status={% t explore.congresspeople.tweet %}" target="_blank"><button class="btn-white">{% t explore.tweet_about %}</button></a>
+      </div>
+      <div class="col-md-4 p-0">
+        <h4>{% t explore.money.amount %}</h4>
+        <p>{% t explore.money.description %}</p>
+        <a class="btn-link" href="https://twitter.com/home?status={% t explore.money.tweet %}" target="_blank"><button class="btn-white">{% t explore.tweet_about %}</button></a>
       </div>
     </div>
   </div>
+  {% if site.lang == "en" %}
+    <img src="/images/explore_en.png" width="100%">
+  {% else %}
+    <img src="/images/explore.jpg" width="100%">
+  {% endif %}
+  <div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 content-block">
+      <p>{% t explore.paragraph_one %}</p>
+      <p>{% t explore.paragraph_two %}</p>
+      <p>{% t explore.paragraph_three %} <a href="https://medium.com/data-science-brigade/como-est%C3%A1-acontecendo-a-hackaton-de-den%C3%BAncias-da-opera%C3%A7%C3%A3o-serenata-de-amor-a8bd193e0c76" target='_blank'>{% t explore.more %}</a>.</p>
+    </div>
+  </div>
+</div>

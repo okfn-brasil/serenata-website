@@ -11,7 +11,6 @@ home:
   about: Um projeto aberto que usa ciência de dados (e as mesmas tecnologias utilizadas por gigantes como Google, Facebook e Netflix) para fiscalizar gastos públicos e compartilha as informações de forma acessível a qualquer pessoa.
   rosie: "A Serenata criou a <a href='https://twitter.com/RosieDaSerenata' class='purple'>Rosie</a>: uma inteligência artificial capaz de analisar cada um dos gastos de deputados federais e senadores feitos em exercício de sua função, identificando suspeitas e incentivando a população a questioná-los."
   jarbas: "Para que a população consiga entender a informação gerada pela Rosie, foi criado o <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a>. Um site onde é possível navegar pelos gastos e descobrir mais sobre cada suspeita. O trabalho de validar uma suspeita começa nele."
-  latest_stories: Artigos
   loading: Carregando…
   more_stories: Ver todos
 footer:
@@ -20,7 +19,6 @@ footer:
   contact: Contato
   partners: Parceiros
 stories:
-  published: Artigos
   loading: Carregando...
 explore:
   reports: Números
@@ -43,7 +41,7 @@ explore:
   paragraph_three: Quer saber como o processo de denúncias funciona?
   more: Você pode ler mais nesse post em nosso blog.
 about:
-  title: A operação serenata de amor.
+  title: Operação Serenata de Amor
   who_contributed: Pessoas que contríbuiram
   paragraph_one: Somos um projeto de tecnologia que usa inteligência artificial para auditar contas públicas e combater a corrupção. A ideia surgiu do cientista de dados
   paragraph_two: ao perceber que ainda existiam muitas brechas no uso de tecnologia para fiscalizar gastos de parlamentares. Ao compartilhar a ideia com amigos, não demorou muito para o projeto ganhar força e um time formado por 8 pessoas dispostas a realizá-lo.
