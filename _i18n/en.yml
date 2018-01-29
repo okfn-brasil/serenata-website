@@ -1,29 +1,26 @@
 ---
-global:
-  brazilian portuguese: Português
-  english: English
-header:
+sections:
   stories: Stories
-  explore: Explore
+  explore: Numbers
   about: About
-support:
+  faq: FAQ
+  in_other_language: "[Em Português]"
   fund_us: Support the project
 home:
-  about: Artificial Intelligence for social control of public administration
-  about_rosie: Operação Serenata de Amor created <a href="https://twitter.com/RosieDaSerenata" class="purple">Rosie</a>  - An artificial intelligence capable of analysing each claim for reimbursement from congresspeople and of identifying it’s illegal probability.
-  last_stories: Last stories
+  tagline: Artificial Intelligence for social control of public administration
+  about: Serenata de Amor is an open project using data science for social accountability of public expenses. We use technology just like large organizations such as Google, Facebook and Netflix in order to track government spendings and to make open data accessible for everyone.
+  rosie: "Serenata has created <a href='https://twitter.com/RosieDaSerenata' class='purple'>Rosie</a>: an artificial intelligence who analyzes Brazilian congrespeople expenses while they are in office. Rosie can find suspicous spendings and engage citizens in the discussion about these findings."
+  jarbas: "To allow people to visualize and make sense of data Rosie generates, we have created <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a>. In this website users can browse congresspeople expenses and get details about each one of the suspicions. It is the starting point to validate a suspicion."
   loading: Loading…
-  more_stories: More stories
+  more_stories: Show all
 footer:
-  about: about
-  github: Serenata on github
-  contact: contact
-  partners: partners
+  github: Serenata on GitHub
+  facebook: Serenata on Facebook
+  contact: Contact
+  partners: Partners
 stories:
-  published: Stories
   loading: Loading…
 explore:
-  reports: Reports
   about_reports: Rosie, our Robot, in numbers
   tweet_about: Tweet about this figure
   suspicions:
@@ -43,7 +40,7 @@ explore:
   paragraph_three: Want to know how the report system works?
   more: You can read more in this post (in Portuguese)
 about:
-  title: Serenata de Amor Operation
+  title: Operation Serenata de Amor
   who_contributed: Contributors
   paragraph_one: We make use of artificial intelligence to audit public expenses and fight corruption. The idea came from the data scientist
   paragraph_two:  when he started to wonder about many possibilities to use technology to inspect congresspeople expenses. When he shared this idea with friends, the project growth in strength in no time and the team was gathered with the goal of making this project happen.

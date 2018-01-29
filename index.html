@@ -1,79 +1,100 @@
 ---
 layout: default
 ---
-  <div class="banner-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="/images/logo_w.png" width="100%">
-          <h1>{% translate home.about %}</h1>
-        </div>
+
+<div class="banner-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/logo_w.png" width="100%">
+        <h1>{% t home.tagline %}</h1>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="content-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 infographic">
+<div class="disclaimer" style="background-color: black; color: white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 content-block">
+        <h2>{% t home.about %}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="disclaimer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 content-block">
+        <h2>{% t home.rosie %}</h2>
+      </div>
+      <div class="col-md-4 robot-picture">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="disclaimer" style="background-color: black; color: white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 content-block">
+        <h2>{% t home.jarbas %}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 infographic">
+        {% if site.lang == "en" %}
+          <img class="infographic-image" src="/images/infographic.png">
+        {% else %}
+          <img class="infographic-image" src="/images/infografico.png">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="container">
+    <h1>{% t sections.stories %}</h1>
+    <div class="row">
+      <div class="posts-thumb-area">{% t home.loading %}</div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="pull-right">
           {% if site.lang == "en" %}
-            <img class="infographic-image" src="/images/infographic.png">
+            <a href="/en/stories/" class="more-posts-link">{% t home.more_stories %}</a>
           {% else %}
-            <img class="infographic-image" src="/images/infografico.png">
+            <a href="/stories/" class="more-posts-link">{% t home.more_stories %}</a>
           {% endif %}
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="disclaimer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 content-block">
-          <h2>{% translate home.about_rosie %}</h2>
-        </div>
-        <div class="col-md-4 robot-picture">
-        </div>
-      </div>
+<div class="container content-block">
+  <div class="row">
+    <div class="col-md-2 col-md-offset-1">
+      <a href="http://g1.globo.com/distrito-federal/noticia/apos-ser-flagrado-por-app-deputado-devolve-a-camara-r-727-por-13-refeicoes-no-mesmo-dia.ghtml" target="_blank"><img src="images/g1.png" width="100%"></a>
+    </div>
+    <div class="col-md-2">
+      <a href="http://anticast.com.br/2016/09/anticast/anticast-253-robos-contra-a-corrupcao/" target="_blank"><img src="images/anticast.png" width="100%"></a>
+    </div>
+    <div class="col-md-2">
+      <a href="https://www.facebook.com/operacaoSerenataDeAmor/videos/vb.528880377304289/555858474606479/?type=2&theater&notif_t=like&notif_id=1477487077716212" target="_blank"><img src="images/band.png" width="100%"></a>
+    </div>
+    <div class="col-md-2">
+      <a href="https://motherboard.vice.com/pt_br/read/robos-contra-a-corrupcao" target="_blank"><img src="images/motherboard.png" width="100%"></a>
+    </div>
+    <div class="col-md-2">
+      <a href="http://www.contasabertas.com.br/website/arquivos/13791" target="_blank"><img src="images/contas_abertas.png" width="100%"></a>
     </div>
   </div>
-
-  <div class="content-block last-histories">
-    <div class="container">
-      <h1>{% translate home.last_stories %}</h1>
-      <div class="row">
-        <div class="posts-thumb-area">{% translate home.loading %}</div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="pull-right">
-            {% if site.lang == "en" %}
-              <a href="/en/stories/" class="more-posts-link">{% translate home.more_stories %}</a>
-            {% else %}
-              <a href="/stories/" class="more-posts-link">{% translate home.more_stories %}</a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container content-block">
-    <div class="row">
-      <div class="col-md-2 col-md-offset-1">
-        <a href="http://g1.globo.com/distrito-federal/noticia/apos-ser-flagrado-por-app-deputado-devolve-a-camara-r-727-por-13-refeicoes-no-mesmo-dia.ghtml" target="_blank"><img src="images/g1.png" width="100%"></a>
-      </div>
-      <div class="col-md-2">
-        <a href="http://anticast.com.br/2016/09/anticast/anticast-253-robos-contra-a-corrupcao/" target="_blank"><img src="images/anticast.png" width="100%"></a>
-      </div>
-      <div class="col-md-2">
-        <a href="https://www.facebook.com/operacaoSerenataDeAmor/videos/vb.528880377304289/555858474606479/?type=2&theater&notif_t=like&notif_id=1477487077716212" target="_blank"><img src="images/band.png" width="100%"></a>
-      </div>
-      <div class="col-md-2">
-        <a href="https://motherboard.vice.com/pt_br/read/robos-contra-a-corrupcao" target="_blank"><img src="images/motherboard.png" width="100%"></a>
-      </div>
-      <div class="col-md-2">
-        <a href="http://www.contasabertas.com.br/website/arquivos/13791" target="_blank"><img src="images/contas_abertas.png" width="100%"></a>
-      </div>
-    </div>
-  </div>
+</div>

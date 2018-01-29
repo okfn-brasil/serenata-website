@@ -1,34 +1,38 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 
 # Setup
-title:               Operação Serenata de Amor
-tagline:             Robôs contra a corrupção
-url:                 https://serenatadeamor.org
-baseurl:             ""
+title: Operação Serenata de Amor
+tagline: Inteligência artificial para controle social da administração pública
+url: https://www.serenatadeamor.org
+baseurl: ""
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 # About/contact
 author:
-  name:              Data Science Brigade
-  url:               https://www.facebook.com/operacaoSerenataDeAmor
-  email:             contato@datasciencebr.com
+  name: Operação Serenata de Amor
+  url: https://www.serenatadeamor.org
+  email: op.serenatadeamor@gmail.com
 
 # Custom vars
-version:             1.0.0
+version: 1.0.0
 github:
-  repo:             https://github.com/datasciencebr/serenata-website
+  repo: https://github.com/datasciencebr/serenata-website
 
-#i18n
+# i18n
 plugins:
-                    - jekyll-multiple-languages-plugin
-languages:          ["pt-br", "en"]
-exclude_from_localizations: ["javascript", "css"]
+  - jekyll-multiple-languages-plugin
+languages:
+  - pt-br
+  - en
+exclude_from_localizations:
+  - javascript
+  - css
