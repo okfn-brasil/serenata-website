@@ -8,9 +8,9 @@ sections:
   fund_us: Support the project
 home:
   tagline: Artificial Intelligence for social control of public administration
-  about: Um projeto aberto que usa ciência de dados (e as mesmas tecnologias utilizadas por gigantes como Google, Facebook e Netflix) para fiscalizar gastos públicos e compartilha as informações de forma acessível a qualquer pessoa.
-  rosie: "A Serenata criou a <a href='https://twitter.com/RosieDaSerenata' class='purple'>Rosie</a>: uma inteligência artificial capaz de analisar cada um dos gastos de deputados federais e senadores feitos em exercício de sua função, identificando suspeitas e incentivando a população a questioná-los."
-  jarbas: "Para que a população consiga entender a informação gerada pela Rosie, foi criado o <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a>. Um site onde é possível navegar pelos gastos e descobrir mais sobre cada suspeita. O trabalho de validar uma suspeita começa nele."
+  about: Serenata de Amor is an open project using data science for social accountability of public expenses. We use technology just like large organizations such as Google, Facebook and Netflix in order to track government spendings and to make open data accessible for everyone.
+  rosie: "Serenata has created <a href='https://twitter.com/RosieDaSerenata' class='purple'>Rosie</a>: an artificial intelligence who analyzes Brazilian congrespeople expenses while they are in office. Rosie can find suspicous spendings and engage citizens in the discussion about these findings."
+  jarbas: "To allow people to visualize and make sense of data Rosie generates, we have created <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a>. In this website users can browse congresspeople expenses and get details about each one of the suspicions. It is the starting point to validate a suspicion."
   loading: Loading…
   more_stories: Show all
 footer:
