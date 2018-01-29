@@ -75,7 +75,7 @@ var loadPosts = function (posts) {
     }
   }
 
-  var storiesPosts = $('.histories-thumb-area');
+  var storiesPosts = $('.stories-thumb-area');
   if (storiesPosts.length) {
       storiesPosts.empty();
       posts.forEach(function(post) {
