@@ -8,9 +8,9 @@ sections:
   fund_us: Apoie o projeto
 home:
   tagline: Inteligência artificial para controle social da administração pública
-  about: Um projeto aberto que usa ciência de dados (e as mesmas tecnologias utilizadas por gigantes como Google, Facebook e Netflix) para fiscalizar gastos públicos e compartilha as informações de forma acessível a qualquer pessoa.
-  rosie: "A Serenata criou a <a href='https://twitter.com/RosieDaSerenata' class='purple'>Rosie</a>: uma inteligência artificial capaz de analisar cada um dos gastos de deputados federais e senadores feitos em exercício de sua função, identificando suspeitas e incentivando a população a questioná-los."
-  jarbas: "Para que a população consiga entender a informação gerada pela Rosie, foi criado o <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a>. Um site onde é possível navegar pelos gastos e descobrir mais sobre cada suspeita. O trabalho de validar uma suspeita começa nele."
+  about: Um projeto aberto que usa ciência de dados - as mesmas tecnologias utilizadas por gigantes como Google, Facebook e Netflix - com a finalidade de fiscalizar gastos públicos e compartilhar as informações de forma acessível a qualquer pessoa.
+  rosie: "A Serenata criou a <a href='https://twitter.com/RosieDaSerenata' class='purple'>Rosie</a>: uma inteligência artificial capaz de analisar os gastos reembolsados pela Cota para Exercício da Atividade Parlamentar (CEAP), de deputados federais e senadores, feitos em exercício de sua função, identificando suspeitas e incentivando a população a questioná-los."
+  jarbas: "Para que a população consiga entender a informação gerada pela Rosie, criamos o <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a> um site onde é possível navegar pelos gastos e descobrir mais sobre cada suspeita, de maneira simples e descomplicada. É onde começa o trabalho de validar uma suspeita levantada pela Rosie."
   loading: Carregando…
   more_stories: Ver todos
 footer:
@@ -19,6 +19,7 @@ footer:
   contact: Contato
   partners: Parceiros
 stories:
+  intro: Nosso maior compromisso enquanto projeto é tornar os dados públicos em um conteúdo acessível para a população. Leia abaixo nossas produções independentes baseadas no nosso trabalho.
   loading: Carregando...
 explore:
   reports: Números
@@ -43,11 +44,10 @@ explore:
 about:
   title: Operação Serenata de Amor
   who_contributed: Pessoas que contríbuiram
-  paragraph_one: Somos um projeto de tecnologia que usa inteligência artificial para auditar contas públicas e combater a corrupção. A ideia surgiu do cientista de dados
-  paragraph_two: ao perceber que ainda existiam muitas brechas no uso de tecnologia para fiscalizar gastos de parlamentares. Ao compartilhar a ideia com amigos, não demorou muito para o projeto ganhar força e um time formado por 8 pessoas dispostas a realizá-lo.
-  paragraph_three: Nascia então a Operação Serenata de Amor, focada em fiscalizar os reembolsos efetuados a partir da Cota para Exercício da Atividade Parlamentar, que custeia alimentação, transporte, hospedagem e até cultura, cursos e assinaturas de TV dos deputados federais.
-  paragraph_four: No dia 7 de Setembro foi ao ar o primeiro crowdfunding do projeto, que pedia verba para custear o trabalho da equipe por 2 meses. Ao final, a campanha conseguiu 20% a mais do que o valor pedido, totalizando mais de R$ 80 mil.
-  paragraph_five: 'Demos início ao trabalho oficialmente no começo de novembro e é marcado, desde então, por reuniões diárias da equipe e por seu conteúdo totalmente open source, isto é, aberto à comunidade. Isso faz parte da nossa orientação: mais do que um projeto de tecnologia, buscamos difundir informação e conscientização política. Queremos marcar uma nova era de dados abertos e acessíveis à população.'
+  paragraph_one: Somos um projeto de tecnologia que usa inteligência artificial para auditar contas públicas e auxiliar no controle social. A ideia surgiu do cientista de dados <a href="https://twitter.com/irio">Irio Musskopf</a>, como forma de participar ativamente do processo democrático, fiscalizando os gastos públicos.  Ao compartilhar a ideia com amigos, não demorou muito para o projeto ganhar força, com um time formado por 10 pessoas e mais de 600 voluntários dispostos a realizá-lo.
+  paragraph_two: Assim surgiu a Operação Serenata de Amor, focada em fiscalizar, com auxílio de tecnologia, os reembolsos efetuados pela Cota para Exercício da Atividade Parlamentar (CEAP) – verba que custeia alimentação, transporte, hospedagem e até despesas com cultura e assinaturas de TV dos parlamentares.
+  paragraph_three: Em 7 de setembro de 2016 foi ao ar a nossa primeira campanha de financiamento coletivo, que conseguiu arrecadar aproximadamente R$ 80 mil, 30% mais do que o valor pedido, o suficiente para custear as operações do time pelos primeiros 90 dias.
+  paragraph_four: Desde então, nosso trabalho, que tem como princípio a informação e a transparência, ganhou espaço em eventos e palestras no mundo inteiro, e teve um grande destaque na mídia, sendo coberto por mais de 90 veiculações, incluindo as maiores do país, como Fantástico, Jornal Nacional e Folha de S. Paulo, além de uma grande relevância no cenário de controle social no Brasil.
 FAQ:
   doubts: Tem dúvidas? Pergunte na nossa <a href="https://www.facebook.com/operacaoSerenataDeAmor" target="_blank">página no Facebook</a> ou <a href="https://twitter.com/cuducos/status/819520770716090368" target="_blank">encontre a gente no Twitter</a>. Se o assunto for técnico, pode escrever em inglês no <a href="https://github.com/datasciencebr/" target="_blank">GitHub</a> ou no nosso <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">grupo técnico no Telegram</a>. Se nada disso funcionar, o <a href="mailto:cabral@datasciencebr.com" target="_blank">Cabral</a> é nosso mestre da comunicação.
   question_one: 1. Quem é responsável pelo projeto?
