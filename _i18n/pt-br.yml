@@ -29,15 +29,15 @@ explore:
   suspicions:
     amount: "8.276"
     description: Reembolsos suspeitos encontrados
-    tweet: A%20%40RosieDaSerenata%20j%C3%A1%20encontrou%208.276%20reembolsos%20suspeitos%20dos%20nossos%20deputados%20dos%20nossos%20deputado.%20Saiba%20mais%20sobre%20a%20%23SerenataDeAmor%3A%20http%3A%2F%2Fserenatadeamor.org%0A
+    tweet: A%20%40RosieDaSerenata%20j%C3%A1%20encontrou%208.276%20reembolsos%20suspeitos%20dos%20nossos%20deputados%20dos%20nossos%20deputado.%20Saiba%20mais%20sobre%20a%20%23SerenataDeAmor%3A%20http%3A%2F%2Fserenata.ai%0A
   congresspeople:
     amount: "735"
     description: Deputados diferentes encontrados com gastos suspeitos
-    tweet: A%20%40RosieDaSerenata%20j%C3%A1%20encontrou%20reembolsos%20suspeitos%20de%20735%20deputados%20diferentes.%20Saiba%20mais%20sobre%20a%20%23SerenataDeAmor%3A%20http%3A%2F%2Fserenatadeamor.org
+    tweet: A%20%40RosieDaSerenata%20j%C3%A1%20encontrou%20reembolsos%20suspeitos%20de%20735%20deputados%20diferentes.%20Saiba%20mais%20sobre%20a%20%23SerenataDeAmor%3A%20http%3A%2F%2Fserenata.ai
   money:
     amount: R$ 3,6 mi
     description: Encontrados em reembolsos suspeitos
-    tweet: A%20%40RosieDaSerenata%20encontrou%20R%24%203%2C6mi%20de%20reembolsos%20suspeitos%20a%20nossos%20deputados.%20Saiba%20mais%20sobre%20a%20%23SerenataDeAmor%20http%3A%2F%2Fserenatadeamor.org
+    tweet: A%20%40RosieDaSerenata%20encontrou%20R%24%203%2C6mi%20de%20reembolsos%20suspeitos%20a%20nossos%20deputados.%20Saiba%20mais%20sobre%20a%20%23SerenataDeAmor%20http%3A%2F%2Fserenata.ai
   paragraph_one: Denunciamos 629 reembolsos suspeitos à Câmara dos Deputados, envolvendo 216 deputados diferentes e mais de R$ 378 mil.
   paragraph_two: Esses valores correspondem a 371% do que arrecadamos com nossa campanha de financeamento coletivo (R$ 80.424,00)
   paragraph_three: Quer saber como o processo de denúncias funciona?

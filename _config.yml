@@ -6,7 +6,7 @@ permalink: pretty
 # Setup
 title: Operação Serenata de Amor
 tagline: Inteligência artificial para controle social da administração pública
-url: https://www.serenatadeamor.org
+url: https://www.serenata.ai
 baseurl: ""
 
 # Assets
@@ -19,8 +19,8 @@ sass:
 # About/contact
 author:
   name: Operação Serenata de Amor
-  url: https://www.serenatadeamor.org
-  email: op.serenatadeamor@gmail.com
+  url: https://serenata.ai
+  email: contato@serenata.ai
 
 # Custom vars
 version: 1.0.0
