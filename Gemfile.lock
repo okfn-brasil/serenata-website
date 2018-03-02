@@ -33,9 +33,6 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    jgd (1.11)
-      jekyll (>= 1.5.1)
-      trollop (= 2.1.2)
     kramdown (1.16.2)
     liquid (4.0.0)
     listen (3.1.5)
@@ -57,7 +54,6 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    trollop (2.1.2)
 
 PLATFORMS
   ruby
@@ -65,7 +61,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-multiple-languages-plugin
-  jgd
 
 BUNDLED WITH
    1.16.1
