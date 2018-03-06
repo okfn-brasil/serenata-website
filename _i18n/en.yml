@@ -82,6 +82,6 @@ FAQ:
   answer_fifteen: You can contribute to the project with <a href="https://github.com/datasciencebr/serenata-de-amor">code</a>, helping to <a href="apoia.se/serenata">maintain the team</a>, with ideas,  <a href="https://twitter.com/search?q=%23serenatadeamor" target="_blank">retweeting</a> and sharing. To understand how to get started with our code base, <a href="https://datasciencebr.com/how-does-one-contribute-to-serenata-de-amor-operation-36e3e7b38207#.een62m7or" target="_blank">check this post</a>. To  directly contribute to the maintenance of the project you can tip us at <a href="https://apoia.se/serenata" target="_blank">apoia.se</a>.
   question_sixteen: 16. Do you act in municipal ways?
   answer_sixteen: 'Unfortunately, we have not started to act in smaller areas yet, and that is due to technical limitations: we do not have a team to scale the work and there is little standardization of data in the municipal spheres. This means that we would have to officially request data and study the structure of the each of the datasets gathered, for each of the cities involved.'
-  question_seventeen: 17. an I use the source code of Serenata de Amor in my city, state or country?
+  question_seventeen: 17. Can I use the source code of Serenata de Amor in my city, state or country?
   answer_seventeen: Sure, this idea is awesome — and also this idea is one of the main purposes of our adoption of open source.
 ---
