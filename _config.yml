@@ -25,7 +25,7 @@ author:
 # Custom vars
 version: 1.0.0
 github:
-  repo: https://github.com/datasciencebr/serenata-website
+  repo: https://github.com/okfn-brasil/serenata-website
 
 # i18n
 plugins:
