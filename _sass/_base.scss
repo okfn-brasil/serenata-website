@@ -256,22 +256,10 @@ footer a:hover{
   color: #fff;
 }
 
-.footer-menu{
-  display: flex;
-  flex-flow: column;
+.footer-menu a{
+  display: table;
 }
 
-.footer-menu__link {
-  &--small {
-    width: 5.5rem;
-  }
-  &--medium {
-    width: 20rem;
-  }
-  &--large {
-    width: 22rem;
-  }
-}
 .support-cta{
   background-color: #EB4A3B;
   font-size: 2rem;
