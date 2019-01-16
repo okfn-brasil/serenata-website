@@ -38,3 +38,6 @@ dist
 
 # Jekyll
 _site
+
+# contrib
+_contrib/*.csv
