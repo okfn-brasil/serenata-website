@@ -13,7 +13,8 @@ home:
   jarbas: "To allow people to visualize and make sense of data Rosie generates, we have created <a href='https://jarbas.serenata.ai/' class='purple'>Jarbas</a>. In this website users can browse congresspeople expenses and get details about each one of the suspicions. It is the starting point to validate a suspicion."
   loading: Loading…
   more_stories: Show all
-  currently: We now want to expand the project, teaching Rosie new things and adapting it to other spheres, such as city councils. Our goal is to bring more information to the public, transforming public data into accessible content through our networks and through independent content production.
+  currently: We now want to expand the project, teaching Rosie new things and adapting it for the municipalities. To this end, we created <a href="https://queridodiario.ok.org.br/" target="_blank"> Querido Diário</a>, a project that wants to make the data from official journals in all Brazilian cities more transparent.
+
 footer:
   github: Serenata on GitHub
   facebook: Serenata on Facebook
@@ -48,6 +49,7 @@ about:
   paragraph_two: And then, the Operation Serenata de Amor has started, focused on monitoring, with the help of technology, the reimbursements made by the Parliamentary Activity Charge (CEAP) - money that costs food, transportation, lodging and even expenses with culture and TV signatures of parliamentarians.
   paragraph_three: On September 7, 2016, our first collective financing campaign was alive, which managed to raise approximately R$ 80,000, 30% more than the amount requested, enough to finance the operations of the team for the first 90 days.
   paragraph_four: Since then, our work, based on information and transparency, has gained space in events and lectures around the world, and has been prominent in the media, being covered by more than 90 journalistics vehicles, including the largest in the country, such as <a href="https://globoplay.globo.com/v/6267741/programa/" target="_blank">Fantastico</a>, <a href="https://globoplay.globo.com/v/5608268/" target="_blank">Jornal Nacional</a> and <a href="http://www1.folha.uol.com.br/poder/2017/01/1852180-jovens-criam-robo-que-monitora-despesas-de-deputados-federais.shtml" target="_blank">Folha de S. Paulo</a>, and a great relevance in the scenario of social control in Brazil.
+  paragraph_five: Currently, the project is part of the <a href="https://www.ok.org.br/" target="_blank">Open Knowledge Brasil</a>'s Data Science for Civic Innovation Program. To know the other projects in the area and follow the news, <a href="https://www.ok.org.br/eixos-de-atuacao/inovacao-civica/" target="_blank">cliqck here</a>.
 FAQ:
   doubts: Have doubts? Ask in our <a href="https://www.facebook.com/operacaoSerenataDeAmor" target="_blank">Facebook page</a> or find us on <a href="https://twitter.com/search?q=%23serenatadeamor" target="_blank">Twitter</a>. For technical issues you can drop a line in English at our <a href="https://github.com/okfn-brasil/serenata-de-amor" target="_blank">GitHub</a> or our technical <a href="https://telegram.me/joinchat/AKDWc0BDOqriD1n-mntRBg" target="_blank">group on Telegram</a>. If none of this works, send us an <a href="mailto:contato@serenata.ai" target="_blank">e-mail</a>
   question_one: 1. What does the name Serenata de Amor mean?
