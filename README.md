@@ -13,5 +13,5 @@ $ bundle install
 ## Development
 
 ```console
-$ bundle exec jekyll serve
+$ jekyll server
 ```
