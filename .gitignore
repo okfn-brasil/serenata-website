@@ -38,6 +38,8 @@ dist
 
 # Jekyll
 _site
+.jekyll-cache/
+vendor/
 
 # contrib
 _contrib/*.csv
